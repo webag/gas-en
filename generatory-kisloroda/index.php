@@ -112,7 +112,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 				<div class="sale-counter">
 					<p class="lead">Until the end of the promotional event:</p>
 					<div class="sale-counter__row">
-						<span><span class="iphone-counter__days">0</span><small> дней</small></span>
+						<span><span class="iphone-counter__days">0</span><small> days</small></span>
 						<span class="iphone-counter__hours">00</span>:<span class="iphone-counter__minutes">00</span>:<span class="iphone-counter__seconds">00</span>
 					</div>
 				</div>
