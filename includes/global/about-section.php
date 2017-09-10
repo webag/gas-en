@@ -2,12 +2,12 @@
 	<div class="container">
 		<header class="s-home-about__header row">
 			<div class="grid-6 grid-12_s">
-				<h2 class="h1">О компании</h2>
+				<h2 class="h1">ABOUT COMPANY</h2>
 			</div>
 			<div class="grid-6 grid-12_s">
 				<div class="links-list">
-					<a href="/upload/Requisites_GG.docx" class="link" rel="nofollow" target="_blank" download><i class="i-pdf"></i>Реквизиты компании</a>
-					<a href="#" class="link fancy" rel="nofollow" data-src="#modal-order"><i class="i-pdf"></i>Референс лист</a>
+					<a href="/upload/Requisites_GG.docx" class="link" rel="nofollow" target="_blank" download><i class="i-pdf"></i>Company details</a>
+					<a href="#" class="link fancy" rel="nofollow" data-src="#modal-order"><i class="i-pdf"></i>Reference list</a>
 				</div>
 			</div>
 		</header>
@@ -15,23 +15,23 @@
 		<main class="row">
 			<div class="grid-5 grid-6_l grid-12_s">
 				<div class="home-about-facts">
-					<h3 class="h3 home-about-facts__title">Достижения в цифрах</h3>
+					<h3 class="h3 home-about-facts__title">ACHIEVEMENTS IN NUMBERS</h3>
 					<div class="home-about-fact home-about-fact--big">
-						<span class="h2">104 выполненных проекта</span>
+						<span class="h2">104 DELIVER PROJECTS</span>
 					</div>
 					<div class="home-about-fact">
-						<span class="h3">Собственная лизинговая компания</span>
+						<span class="h3">OWN LEASING COMPANY</span>
 					</div>
 					<div class="home-about-fact">
-						<span class="h3">Собственный проектный институт</span>
+						<span class="h3">OWN DESIGN INSTITUTE</span>
 					</div>
 					<div class="home-about-fact">
-						<span class="h3">4 производственные площадки</span>
-						<small>в России и Европе (Москва, Ростов-на-Дону и Словения)</small>
+						<span class="h3">4 MANUFACTURING AREAS</span>
+						<small>IN THE RUSSIAN FEDERATION AND EUROPE (MOSCOW, NOVOCHERKASSK AND SLOVENIA)</small>
 					</div>
 					<div class="home-about-fact">
-						<span class="h3">56 специалистов</span>
-						<small>в команде, каждый мастер в своем деле</small>
+						<span class="h3">TEAM OF 56 SPECIALISTS</span>
+						<!--<small>в команде, каждый мастер в своем деле</small>-->
 					</div>
 				</div>
 
@@ -43,12 +43,12 @@
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/home/video-about.jpg" alt="video">
 					<div class="about-video__content">
 						<span class="btn-play btn-play--big"></span>
-						<span class="h3">Видео<br>о компании</span>
+						<span class="h3">VIDEO<br>ABOUT COMPANY</span>
 					</div>
 				</div>
 				<div class="user-content">
-					<p>История компании начинается в 2004 году, когда главный её технический вдохновитель оказался в Космических войсках Российской Федерации. Во время учёбы и службы в космических войсках технический директор учавствовал в запусках ракетоносителей «СОЮЗ 2-1» и «ПРОТОН М». Уже тогда, во время обучения был намечен вектор развития в области разделения воздуха криогенным способом.</p>
-					<p>Первая компания юридически была основана в 2009 году. На тот момент компания занималась продажей криогенного оборудования и сопутствующей техники. В период до 2013 года компания выступала дилером импортных производителей на территории РФ. Благодаря усилиям компании на Российский рынок пришли такие производители как Lupamat (Турция) – производитель компрессорного оборудования и Gazcon (Дания) один из ведущих мировых производителей адсорбционных генераторов азота и кислорода – ныне входит в концерн Atlas Copco. В бытность роста дилерского участия на рынке, компания занималась активным поиском качественных производителей за границей. Основатели компании провели технические аудиты десятков зарубежных заводов-производителей по всему миру, включая такие страны как Франция, Италия, Дания, Швеция, Турция, Индия, Сингапур, Малайзия и Китай. За это время компания приобрела бесценный опыт сотрудничества с зарубежными поставщиками и провела множество успешных сделок. После многолетних поисков руководством компании было принято решение об открытии собственного производства на территории РФ. В 2014 году был выпущен первый генератор азота короткоцикловой адсорбции по собственным технологиям.</p>
+					<p>The history of the company begin on 2004, when its main technical father was in the Space Forces of the Russian Federation. While studying and service with troops in the space forces, he took part in the initialization of the launch vehicles "UNION 2-1" and "PROTON M". Even then, the vector of development in the nature of air separation by a cryogenic method was outlined.</p>
+					<p>The first company was legally registered in 2009. At that time, the company mainly engaged in the sale of cryogenic equipment and related equipment. Until 2013 the company acted as a dealer of import manufacturers on the territory of the Russian Federation. Because of the applications to work and intensions of the company managed to get into the Russian marketing area from manufacturers such as: Lupamat (Turkey) - a manufacturer of compressor equipment and Gazcon (Denmark) - one of the world's leading manufacturers of nitrogen and oxygen adsorption generators (currently part of the Atlas Copco group). Considering the growth of dealer participation in the marketing area , the company was actively seeking and attracting quality manufactures  abroad. The company's founders conducted technical audits among dozens of foreign manufacturing plants around the world, including countries such as France, Italy, Denmark, Sweden, Turkey, India, Singapore, Malaysia and China. During this time the company has gained invaluable experience of cooperation with foreign suppliers, has concluded and implemented many successful transactions. During many years of searching, the company's management decided to open its in-house fabrication on the territory of the Russian Federation, and in 2014 the first pressure swing adsorption nitrogen generator was produced by its own technology and on its own manufacturing area.</p>
 				</div>
 			</div>
 		</main>

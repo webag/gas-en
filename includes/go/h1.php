@@ -1,1 +1,1 @@
-генераторы кислорода с&nbsp;концентрацией до&nbsp;95%
+Oxygen generators at a concentration to  95%

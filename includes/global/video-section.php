@@ -6,8 +6,8 @@
 			<div class="grid-5 grid-12_s">
 				<div class="home-video-left">
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/youtube.svg" alt="youtube" class="home-video-left__icon">
-					<h3 class="h2">Смотрите все видео на&nbsp;нашем канале</h3>
-					<a href="https://www.youtube.com/channel/UC20EysVcOs4LfvoIhra4epA" target="_blank" class="btn btn--red btn--icon">Смотреть <i class="i-play"></i></a>
+					<h3 class="h2">SEE ALL THE VIDEOS ON OUR CHANNEL</h3>
+					<a href="https://www.youtube.com/channel/UC20EysVcOs4LfvoIhra4epA" target="_blank" class="btn btn--red btn--icon">Watch <i class="i-play"></i></a>
 				</div>
 			</div>
 		</div>

@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 <section class="s-page-title s-page-title--bordered">
 	<div class="container">
-		<h1 class="h1">Выполненные проекты</h1>
+		<h1 class="h1">Completed projects</h1>
 	</div>
 </section>
 
@@ -233,32 +233,32 @@ $this->setFrameMode(true);
 		<div class="sale-block row--nopad">
 
 			<div class="grid-4 grid-12_m sale-cases">
-				<h3 class="sale-ballon__title">Вас заинтересовал проект?</h3>
+				<h3 class="sale-ballon__title">Interested in the project?</h3>
 			</div>
 
 			<div class="grid-8 grid-12_m sale-block__white">
 				<div class="sale-big-form">
-					<h3 class="h2 sale-big-form__title"><mark>Оставьте заявку</mark> и&nbsp;мы организуем Вам экскурсию по&nbsp;объекту</h3>
-					<p class="lead">Наш менеджер свяжется с&nbsp;Вами в&nbsp;течение 15 минут для уточнения деталей</p>
+					<h3 class="h2 sale-big-form__title"><mark>Leave an application</mark> and we will arrange you a tour on the project</h3>
+					<p class="lead">Our manager will contact you within 15 minutes to clarify the details</p>
 					<form class="ajax-form column-form grey-form">
 						<div class="row">
 							<div class="grid-6 grid-12_xs">
-								<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
-								<span class="form-subtitle">Как с Вами связаться?</span>
-								<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон" data-req="true">
+								<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя">
+								<span class="form-subtitle">How to contact you?</span>
+								<input type="tel" name="user_tel" placeholder="Telephone number*" data-label="Телефон" data-req="true">
 								<input type="text" name="user_email" placeholder="E-mail*" data-label="E-mail" data-req="true">
 							</div>
 							<div class="grid-6 grid-12_xs">
-								<input type="text" name="user_city" placeholder="Город" data-label="Город">
-								<span class="form-subtitle">Данные объекта</span>
-								<input type="text" name="user_company" placeholder="Название компании" data-label="Название компании">
-								<input type="text" name="user_type_oborud" placeholder="Тип оборудования" data-label="Тип оборудования">
+								<input type="text" name="user_city" placeholder="City" data-label="Город">
+								<span class="form-subtitle">Object data</span>
+								<input type="text" name="user_company" placeholder="Company" data-label="Название компании">
+								<input type="text" name="user_type_oborud" placeholder="Equipment type" data-label="Тип оборудования">
 							</div>
 							<div class="grid-12 column-form__btnwrap">
 								<input type="hidden" value="Заявка из кейсов" name="form_subject">
-								<button type="submit" class="btn btn--icon">Отправить заявку <i class="i-forward"></i></button>
+								<button type="submit" class="btn btn--icon">Send application <i class="i-forward"></i></button>
 							</div>
-							<p class="grid-12 form-note">Мы не передаем Вашу персональную информацию третьим лицам.<br>Нажимая кнопку «Отправить заявку» вы даете <a href="#">согласие на обработку персональных данных.</a></p>
+							<p class="grid-12 form-note">We do not share your personal information with third parties. By clicking the button "Send application", you consent to <a href="#">personal data processing</a></p>
 						</div>
 					</form>
 				</div>

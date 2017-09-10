@@ -1,14 +1,14 @@
 <section class="s-factory-photos">
 	<div class="container">
-		<h2 class="h1">Наше производство</h2>
+		<h2 class="h1">OUR PRODUCTION</h2>
 
 		<div class="tabs-section">
 
 			<div class="tabs-section__links">
-				<a href="#" class="active">Москва, Текстильщики</a>
-				<a href="#">Москва, Видное</a>
-				<a href="#">Ростов-на-Дону</a>
-				<a href="#">Словения</a>
+				<a href="#" class="active">Moscow, Tekstilshchiki</a>
+				<a href="#">Moscow, Vidnoe</a>
+				<a href="#">Rostov-na-Donu</a>
+				<a href="#">Slovenia</a>
 			</div>
 
 			<div class="tabs-section__content active">

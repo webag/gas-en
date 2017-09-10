@@ -19,7 +19,7 @@ $this->setFrameMode(true);
 		<a href="#" class="link filter-show-mob" rel="nofollow"><span>Фильтр</span><i class="i-right-ar"></i></a>
 
 		<div class="filter-block">
-			<p class="h3 filter-block__title">Уточните, что вам необходимо</p>
+			<p class="h3 filter-block__title">UPDATE YOU NEED</p>
 
 			<form name="<?echo $arResult["FILTER_NAME"]."_form"?>" action="<?echo $arResult["FORM_ACTION"]?>" method="get" class="smartfilter">
 
@@ -35,7 +35,7 @@ $this->setFrameMode(true);
 							<div class="filter-section__content">
 								<label class="filter-button">
 									<input type="radio" value="" name="<? echo $arCur["CONTROL_NAME_ALT"] ?>" id="<? echo "all_".$arCur["CONTROL_ID"] ?>" onclick="smartFilter.click(this)"/>
-									<span>Все</span>
+									<span>All</span>
 								</label>
 								<?foreach($arItem["VALUES"] as $val => $ar):?>
 									<label class="filter-button" data-role="label_<?=$ar["CONTROL_ID"]?>">
@@ -59,7 +59,7 @@ $this->setFrameMode(true);
 
 				<? if ($has_number_filter) : ?>
 				<div class="filter-section">
-					<span class="filter-section__title">Характеристики</span>
+					<span class="filter-section__title">Behaviors</span>
 					<div class="filter-section__content">
 
 						<? foreach($arResult["ITEMS"] as $key=>$arItem): ?>
@@ -68,7 +68,7 @@ $this->setFrameMode(true);
 									<div class="filter-param__title"><?=$arItem["NAME"]?></div>
 									<div class="filter-param__range">
 										<div class="filter-param__inputwrap <?if (!empty($arItem["VALUES"]["MIN"]["HTML_VALUE"])):?>is-selected <? endif ?>">
-											<span>от</span>
+											<span>from</span>
 											<input
 												class="min-price"
 												type="text"
@@ -79,10 +79,10 @@ $this->setFrameMode(true);
 												onkeyup="smartFilter.keyup(this)"
 												placeholder="<?=$arItem["VALUES"]["MIN"]["VALUE"]?>"
 											/>
-											<div class="filter-param__deselect" title="Отменить фильтр"></div>
+											<div class="filter-param__deselect" title="Cancel filter"></div>
 										</div>
 										<div class="filter-param__inputwrap <?if (!empty($arItem["VALUES"]["MAX"]["HTML_VALUE"])):?>is-selected <? endif ?>">
-											<span>до</span>
+											<span>to</span>
 											<input
 												class="max-price"
 												type="text"
@@ -93,7 +93,7 @@ $this->setFrameMode(true);
 												onkeyup="smartFilter.keyup(this)"
 												placeholder="<?=$arItem["VALUES"]["MAX"]["VALUE"]?>"
 											/>
-											<div class="filter-param__deselect" title="Отменить фильтр"></div>
+											<div class="filter-param__deselect" title="Cancel filter"></div>
 										</div>
 									</div>
 								</div>
@@ -111,14 +111,14 @@ $this->setFrameMode(true);
 						type="submit"
 						id="set_filter"
 						name="set_filter"
-						value="Применить"
+						value="Apply"
 					/>
 					<input
 						class="btn btn-link"
 						type="submit"
 						id="del_filter"
 						name="del_filter"
-						value="Сбросить"
+						value="Reset"
 					/>
 				</div>
 

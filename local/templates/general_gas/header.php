@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,9 +54,9 @@
 		</div>
 		<div class="head-info">
 			<div class="lang-switcher">
-				<a href="#" class="link--blue active">рус</a>
+				<a href="http://general-gas.ru" class="link--blue">rus</a>
 				<span>/</span>
-				<a href="#" class="link--blue">eng</a>
+				<a href="http://general-gas.com" class="link--blue active">eng</a>
 			</div>
 			<div class="head-info__contacts">
 				<a href="mailto:info@general-gas.ru" class="link head-info__mail"><i class="i-mail"></i>info@general-gas.ru</a>

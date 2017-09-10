@@ -51,7 +51,7 @@ $this->setFrameMode(true);
 					</div>
 					<time><?=$arResult["DISPLAY_ACTIVE_FROM"]?></time>
 					<div class="inner-block__bottomshare">
-						<p class="inner-block__bottomshare-title">Поделиться в социальных сетях</p>
+						<p class="inner-block__bottomshare-title">Share:</p>
 						<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
 						<script src="//yastatic.net/share2/share.js"></script>
 						<div class="ya-share2" data-services="vkontakte,facebook,twitter" data-counter=""></div>

@@ -1,12 +1,12 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Контакты");
+$APPLICATION->SetTitle("Contacts");
 ?>
 
 
 <section class="s-page-title">
 	<div class="container">
-		<h1 class="h1">Наши контакты</h1>
+		<h1 class="h1">Our contacts</h1>
 	</div>
 </section>
 
@@ -14,9 +14,9 @@ $APPLICATION->SetTitle("Контакты");
 <section class="s-contacts-links">
 	<div class="container">
 		<div class="links-list">
-			<a href="/upload/Requisites_GG.docx" class="link" target="_blank" download rel="nofollow"><i class="i-pdf-2"></i>Реквизиты компании</a>
-			<a href="#s-contacts-callback" class="link scrollto" target="_blank" download rel="nofollow"><i class="i-bubble"></i>Обратная связь</a>
-			<a href="#" class="link" target="_blank" download rel="nofollow"><i class="i-badge"></i>Наши вакансии</a>
+			<a href="/upload/Requisites_GG.docx" class="link" target="_blank" download rel="nofollow"><i class="i-pdf-2"></i>Company details</a>
+			<a href="#s-contacts-callback" class="link scrollto" target="_blank" download rel="nofollow"><i class="i-bubble"></i>Contact us</a>
+			<a href="#" class="link" target="_blank" download rel="nofollow"><i class="i-badge"></i>Job vacancies</a>
 		</div>
 	</div>
 </section>
@@ -28,16 +28,16 @@ $APPLICATION->SetTitle("Контакты");
 	<div class="container">
 
 		<div class="contacts-map-panel">
-			<h3 class="h3 contacts-map-panel__title">Главный офис и&nbsp;производство</h3>
+			<h3 class="h3 contacts-map-panel__title">General office and manufacture</h3>
 			<img src="<?=SITE_TEMPLATE_PATH?>/img/contacts/panel-img.jpg" alt="1" class="contacts-map-panel__img">
-			<address class="lead">г. Москва, 1-й Грайвороновский проезд, д. 20, строение 35, Бизнес Парк «Турас», 5 Этаж</address>
+			<address class="lead">Moscow, 1st Graivoronovsky Passage 20, Building 35, Business Park "Turas", 5 Floor</address>
 			<div class="contacts-map-panel__sheme">
-				<a href="#" class="link"><i class="i-mappin"></i>Указатель проезда</a>
+				<a href="#" class="link"><i class="i-mappin"></i>Directions</a>
 			</div>
 			<div class="contacts-map-panel__phone">
 				<a href="tel:+7(499)3993477" class="h3">+7 (499) 399 34 77</a>
 			</div>
-			<p class="lead">Вакансии и&nbsp;заявки присылайте на&nbsp;почту: info@general-gas.ru</p>
+			<p class="lead">Jobs and applications send to the mail: info@general-gas.ru</p>
 		</div>
 
 	</div>
@@ -49,32 +49,32 @@ $APPLICATION->SetTitle("Контакты");
 	<div class="container">
 
 		<div class="contacts-callback">
-			<p class="h2 contacts-callback__title">Напишите нам</p>
-			<p class="lead contacts-callback__subtitle">Отправьте ваш вопрос и менеджер свяжется с вами в течении 15 минут.</p>
+			<p class="h2 contacts-callback__title">WRITE US</p>
+			<p class="lead contacts-callback__subtitle">Send your question and the manager will contact you within 15 minutes.</p>
 
 			<form class="ajax-form column-form grey-form">
 				<div class="row">
 
 					<div class="grid-5 grid-12_s">
-						<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
-						<span class="form-subtitle">Как с Вами связаться?</span>
-						<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон" data-req="true">
+						<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя">
+						<span class="form-subtitle">How to contact you?</span>
+						<input type="tel" name="user_tel" placeholder="Telephone number*" data-label="Телефон" data-req="true">
 						<input type="text" name="user_email" placeholder="E-mail*" data-label="E-mail" data-req="true">
 					</div>
 
 					<div class="grid-7 grid-12_s">
-						<textarea name="user_comment" rows="7" placeholder="Опишите ваш вопрос" data-label="Сообщение"></textarea>
+						<textarea name="user_comment" rows="7" placeholder="Question" data-label="Сообщение"></textarea>
 						<label class="style-fileinput link">
 							<input type="file" name="file[]" data-multiple-caption="{count} файла(ов)" multiple />
-							<i class="i-skrep"></i><span class="style-fileinput__text">Прикрепить файл</span>
+							<i class="i-skrep"></i><span class="style-fileinput__text">Attach file</span>
 						</label>
 					</div>
 
 					<div class="grid-12 column-form__btnwrap">
 						<input type="hidden" value="Обратная связь (контакты)" name="form_subject">
-						<button type="submit" class="btn btn--icon">Отправить <i class="i-forward"></i></button>
+						<button type="submit" class="btn btn--icon">Send <i class="i-forward"></i></button>
 					</div>
-					<p class="grid-12 form-note">Мы не передаем Вашу персональную информацию третьим лицам.<br>Нажимая кнопку «Отправить заявку» вы даете <a href="#">согласие на обработку персональных данных.</a></p>
+					<p class="grid-12 form-note">We do not share your personal information with third parties. By clicking the button "Send ", you consent to <a href="#">personal data processing</a>.</p>
 				</div>
 			</form>
 

@@ -19,9 +19,9 @@ $this->setFrameMode(true);
 	<div class="lp-table__headerwrap">
 		<header class="lp-table__header lp-table__header--fixed">
 			<div class="container lpt-row">
-				<div class="lpt-col lpt-col--1">Модель</div>
-				<div class="lpt-col lpt-col--2">Габариты</div>
-				<div class="lpt-col lpt-col--3">Концентрация, %</div>
+				<div class="lpt-col lpt-col--1">Model</div>
+				<div class="lpt-col lpt-col--2">Measures</div>
+				<div class="lpt-col lpt-col--3">Concentration, %</div>
 				<div class="lpt-col lead lpt-col--4">99</div>
 				<div class="lpt-col lead lpt-col--4">99,5</div>
 				<div class="lpt-col lead lpt-col--4">99,9</div>
@@ -38,15 +38,15 @@ $this->setFrameMode(true);
 			<div class="container lpt-row">
 				<div class="lpt-col lpt-col--1">
 					<div class="lead"><?=$arItem["NAME"]?></div>
-					<a href="#" class="link--blue fancy" data-src="#modal-order-gn" rel="nofollow"><strong>Подробнее</strong></a>
+					<a href="#" class="link--blue fancy" data-src="#modal-order-gn" rel="nofollow"><strong>Detailed</strong></a>
 				</div>
 				<div class="lpt-col lpt-col--2">
-					<p>Размер, ДхШхВ, мм: <strong><?=$arItem["PROPERTIES"]["SIZE"]["VALUE"]?></strong></p>
-					<p>Вес, кг: <strong><?=$arItem["PROPERTIES"]["WEIGHT"]["VALUE"]?></strong></p>
+					<p>Dimension, LxWxH, mm: <strong><?=$arItem["PROPERTIES"]["SIZE"]["VALUE"]?></strong></p>
+					<p>Weight, kg: <strong><?=$arItem["PROPERTIES"]["WEIGHT"]["VALUE"]?></strong></p>
 				</div>
 				<div class="lpt-col lpt-col--3">
-					<p>Производительность, м<sup>3</sup>/час</p>
-					<p>Требуется воздуха, м<sup>3</sup>/мин</p>
+					<p>Capacity, m<sup>3</sup>/hour</p>
+					<p>Required air, m<sup>3</sup>/min</p>
 				</div>
 				<div class="lpt-col lpt-col--4">
 					<p><?=$arItem["PROPERTIES"]["P_1"]["VALUE"]?></p>
@@ -79,7 +79,7 @@ $this->setFrameMode(true);
 
 	<footer class="lp-table__footer">
 		<? if (count($arResult["ITEMS"]) > 8) : ?>
-			<a href="#" class="link lp-table__full">Посмотреть полную таблицу</a>
+			<a href="#" class="link lp-table__full">View full table</a>
 		<? endif; ?>
 	</footer>
 

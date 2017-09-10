@@ -18,7 +18,7 @@ $this->setFrameMode(true);
 	<div id="geomap" class="s-geo__map"></div>
 
 	<div class="container">
-		<h2 class="h1">География поставок</h2>
+		<h2 class="h1">Sales geography</h2>
 
 		<div class="geo-items">
 			<?foreach($arResult["ITEMS"] as $key => $arItem):?>
@@ -33,13 +33,13 @@ $this->setFrameMode(true);
 					<? endif; ?>
 					<div class="geo-item__text lead">
 						<? if (!empty($arItem["PROPERTIES"]["OBORUD"]["VALUE"])) : ?>
-							<p>Поставляемое оборудование:<br><?=$arItem["PROPERTIES"]["OBORUD"]["VALUE"]?></p>
+							<p>Supplied equipment:<br><?=$arItem["PROPERTIES"]["OBORUD"]["VALUE"]?></p>
 						<? endif; ?>
 						<? if (!empty($arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"])) : ?>
-							<p>Концентрация: <?=$arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"]?>%</p>
+							<p>Concentration: <?=$arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"]?>%</p>
 						<? endif; ?>
 						<? if (!empty($arItem["PROPERTIES"]["EFFECTIV"]["VALUE"])) : ?>
-							<p>Производительность: <?=$arItem["PROPERTIES"]["EFFECTIV"]["VALUE"]?> м<sup>3</sup>/ч</p>
+							<p>Capacity: <?=$arItem["PROPERTIES"]["EFFECTIV"]["VALUE"]?> м<sup>3</sup>/ч</p>
 						<? endif; ?>
 					</div>
 					<div class="geo-item__footer">
@@ -50,7 +50,7 @@ $this->setFrameMode(true);
 							<img src="<?=$logo_img["src"]?>" alt="<?=$arItem["NAME"]?>">
 						<? endif; ?>
 
-						<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="link">Читать подробнее <i class="i-right-ar"></i></a>
+						<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="link">Details <i class="i-right-ar"></i></a>
 					</div>
 				</div>
 			<?endforeach;?>

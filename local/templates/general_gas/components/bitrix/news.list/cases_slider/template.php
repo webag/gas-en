@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 <section class="s-cases-slider">
 	<div class="container">
-		<h2 class="h1">Недавно выполненные проекты</h2>
+		<h2 class="h1">Recently completed projects</h2>
 	</div>
 
 	<div class="cases-slider slider-black-arrows">
@@ -42,17 +42,17 @@ $this->setFrameMode(true);
 				<? endif; ?>
 				<div class="case-panel__text lead">
 					<? if (!empty($arItem["PROPERTIES"]["OBORUD"]["VALUE"])) : ?>
-						<p>Поставляемое оборудование: <?=$arItem["PROPERTIES"]["OBORUD"]["VALUE"]?></p>
+						<p>Supplied equipment: <?=$arItem["PROPERTIES"]["OBORUD"]["VALUE"]?></p>
 					<? endif; ?>
 					<? if (!empty($arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"])) : ?>
-						<p>Концентрация: <?=$arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"]?>%</p>
+						<p>Concentration: <?=$arItem["PROPERTIES"]["CONCENTRATION"]["VALUE"]?>%</p>
 					<? endif; ?>
 					<? if (!empty($arItem["PROPERTIES"]["EFFECTIV"]["VALUE"])) : ?>
-						<p>Производительность: <?=$arItem["PROPERTIES"]["EFFECTIV"]["VALUE"]?> м<sup>3</sup>/ч</p>
+						<p>Capacity: <?=$arItem["PROPERTIES"]["EFFECTIV"]["VALUE"]?> м<sup>3</sup>/ч</p>
 					<? endif; ?>
 				</div>
 				<footer class="case-panel__footer">
-					<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="link">Читать подробнее <i class="i-right-ar"></i></a>
+					<a href="<?=$arItem['DETAIL_PAGE_URL']?>" class="link">Details <i class="i-right-ar"></i></a>
 				</footer>
 			</div>
 		<?endforeach;?>

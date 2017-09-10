@@ -16,7 +16,7 @@ $this->setFrameMode(true);
 
 <section class="s-page-title s-page-title--bordered">
 	<div class="container">
-		<h1 class="h1">Применение генераторов</h1>
+		<h1 class="h1">Application</h1>
 	</div>
 </section>
 
@@ -110,25 +110,25 @@ $this->setFrameMode(true);
 		<div class="sale-block row--nopad">
 
 			<div class="grid-8 grid-7_l grid-12_m sale-info sale-info--usage">
-				<h3 class="h2">Вам нужно больше информации?</h3>
-				<p class="lead sale-info__text">Вы можете получть более подробную информацию о пользе нашего генератора на вашем предприятии.</p>
+				<h3 class="h2">You need more information?</h3>
+				<p class="lead sale-info__text">You can get more information about our generator use for your industry.</p>
 				<div class="sale-info__hwo">
-					<div class="lead-big">Артем Астапов</div>
-					<span>Менеджер проектов</span>
+					<div class="lead-big">Artem Astapov</div>
+					<span>Project manager</span>
 				</div>
 			</div>
 
 			<div class="grid-4 grid-5_l grid-12_m sale-block__white">
 				<div class="sale-small-form">
-					<h3 class="h3 sale-small-form__title">Оставьте заявку</h3>
-					<p class="lead">Оставьте заявку и&nbsp;мы свяжемся с&nbsp;Вами в&nbsp;течении 15 минут.</p>
+					<h3 class="h3 sale-small-form__title">Leave an application</h3>
+					<p class="lead">Our manager will contact you within 15 minutes to clarify the details.</p>
 					<form class="ajax-form vertical-form grey-form">
-						<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
-						<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон" data-req="true">
+						<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя">
+						<input type="tel" name="user_tel" placeholder="Telephone number*" data-label="Телефон" data-req="true">
 						<input type="text" name="user_email" placeholder="E-mail*" data-label="E-mail" data-req="true">
 						<input type="hidden" value="Получение информации (страница применений)" name="form_subject">
-						<button type="submit" class="btn btn--icon">Отправить <i class="i-forward"></i></button>
-						<p class="grid-12 form-note">Мы не передаем Вашу персональную информацию третьим лицам. Нажимая кнопку «Отправить» вы даете <a href="#">согласие на обработку персональных данных.</a></p>
+						<button type="submit" class="btn btn--icon">Send <i class="i-forward"></i></button>
+						<p class="grid-12 form-note">We do not share your personal information with third parties. By clicking the button "Send", you consent to <a href="#">personal data processing.</a></p>
 					</form>
 				</div>
 			</div>

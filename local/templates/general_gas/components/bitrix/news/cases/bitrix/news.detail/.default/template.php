@@ -21,7 +21,7 @@ $this->setFrameMode(true);
 
 			<div class="row case-details__top-row">
 				<div class="grid-6 grid-12_s">
-					<p class="h3">Выполненные проекты</p>
+					<p class="h3">Completed projects</p>
 					<h1 class="h1 case-details__title"><?=$arResult["NAME"]?></h1>
 					<p class="h3 case-details__city"><?=$arResult["PROPERTIES"]["CITY"]["VALUE"]?></p>
 
@@ -37,7 +37,7 @@ $this->setFrameMode(true);
 					<? endif; ?>
 
 					<div class="case-details__info user-content">
-						<p class="h2">Информация о проекте</p>
+						<p class="h2">PROJECT INFORMATION</p>
 						<? if (!empty($arResult["PROPERTIES"]["PROBLEM"]["VALUE"])) : ?>
 							<p class="lead-extrabig">Поставленная задача</p>
 							<?=$arResult["PROPERTIES"]["PROBLEM"]["~VALUE"]["TEXT"];?>
@@ -62,7 +62,7 @@ $this->setFrameMode(true);
 
 						<? if (!empty($arResult["PROPERTIES"]["VARIANT_ISP"]["VALUE"])) : ?>
 							<div class="case-details__prodvar">
-								<span>Вариант исполнения:</span>
+								<span>Hardware version:</span>
 								<p class="lead-big"><?=$arResult["PROPERTIES"]["VARIANT_ISP"]["VALUE"]?></p>
 							</div>
 						<? endif; ?>
@@ -72,7 +72,7 @@ $this->setFrameMode(true);
 								<div class="case-details-param">
 									<img src="<?=SITE_TEMPLATE_PATH?>/img/details/i-conc.svg" alt="1">
 									<div class="case-details-param__content">
-										<p>Концентрация газа</p>
+										<p>Gas concentration</p>
 										<p class="lead-big"><?=$arResult["PROPERTIES"]["CONCENTRATION"]["VALUE"]?>%</p>
 									</div>
 								</div>
@@ -81,8 +81,8 @@ $this->setFrameMode(true);
 								<div class="case-details-param">
 									<img src="<?=SITE_TEMPLATE_PATH?>/img/details/i-dav.svg" alt="1">
 									<div class="case-details-param__content">
-										<p>Давление</p>
-										<p class="lead-big"><?=$arResult["PROPERTIES"]["DAVLEN"]["VALUE"]?> бар</p>
+										<p>Pressure</p>
+										<p class="lead-big"><?=$arResult["PROPERTIES"]["DAVLEN"]["VALUE"]?> bar</p>
 									</div>
 								</div>
 							<? endif; ?>
@@ -90,8 +90,8 @@ $this->setFrameMode(true);
 								<div class="case-details-param">
 									<img src="<?=SITE_TEMPLATE_PATH?>/img/details/i-proiz.svg" alt="1">
 									<div class="case-details-param__content">
-										<p>Производительность</p>
-										<p class="lead-big"><?=$arResult["PROPERTIES"]["EFFECTIV"]["VALUE"]?> м<sup>3</sup>/ч</p>
+										<p>Capacity</p>
+										<p class="lead-big"><?=$arResult["PROPERTIES"]["EFFECTIV"]["VALUE"]?> m<sup>3</sup>/h</p>
 									</div>
 								</div>
 							<? endif; ?>
@@ -105,7 +105,7 @@ $this->setFrameMode(true);
 
 			<? if (!empty($arResult["PROPERTIES"]["PHOTOS"]["VALUE"])) : ?>
 				<div class="case-details__photos">
-					<p class="h1">Фотоотчет проекта</p>
+					<p class="h1">PROJECT FOTO REPORT</p>
 					<div class="row">
 						<? foreach ($arResult["PROPERTIES"]["PHOTOS"]["VALUE"] as $key => $photo_id) : ?>
 							<?

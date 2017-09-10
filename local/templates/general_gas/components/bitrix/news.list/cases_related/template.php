@@ -17,7 +17,7 @@ $this->setFrameMode(true);
 <section class="s-details-related <? echo (empty($arResult["ITEMS"]) ? 's-details-related--noitems' : '')?>">
 	<? if (!empty($arResult["ITEMS"])) : ?>
 		<div class="container">
-			<p class="h2">Похожие проекты</p>
+			<p class="h2">Similar projects</p>
 
 			<div class="row">
 				<?foreach($arResult["ITEMS"] as $arItem):?>

@@ -7,9 +7,9 @@ $this->setFrameMode(true);
 
 	<div class="container clients-slider-panel__wrap">
 		<div class="clients-slider-panel">
-			<h3 class="h3">Нам доверяют
+			<h3 class="h3">We are trusted by
 				<strong>>100</strong>
-				<small>крупнейших компаний России, Европы и СНГ</small>
+				<small>Largest Companies in Russia, Europe and the CIS </small>
 			</h3>
 		</div>
 	</div>

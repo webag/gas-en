@@ -1,15 +1,15 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("О нас");
+$APPLICATION->SetTitle("About us");
 ?>
 
 
 <section class="s-about-header">
 	<div class="container">
-		<h1 class="h1">О нас</h1>
+		<h1 class="h1">ABOUT US</h1>
 		<div class="user-content">
-			<p><span class="lead-big">История компании начинается в 2004 году,</span>когда главный её технический вдохновитель оказался в Космических войсках Российской Федерации. Во время учёбы и службы в космических войсках технический директор участвовал в запусках ракетоносителей «СОЮЗ 2-1» и «ПРОТОН М».</p>
-			<p>Уже тогда, во время обучения был намечен вектор развития в области разделения воздуха криогенным и адсорбционным способами.</p>
+			<p><span class="lead-big">The history of the company begin on 2004,</span>when its main technical father was in the Space Forces of the Russian Federation. While studying and service with troops in the space forces, he took part in the initialization of the launch vehicles "UNION 2-1" and "PROTON M".</p>
+			<p>Even then, the vector of development in the nature of air separation by a cryogenic method was outlined.</p>
 		</div>
 	</div>
 </section>
@@ -28,8 +28,8 @@ $APPLICATION->SetTitle("О нас");
 							<div class="team-panel">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/team/m1.jpg" alt="1" class="team-panel__photo">
 								<div class="team-panel__content">
-									<div class="team-panel__name">Лукьянов Вадим<br>Робертович</div>
-									<span class="team-panel__dolg">Коммерческий директор</span>
+									<div class="team-panel__name">Lukyanov Vadim<br>Robertovich</div>
+									<span class="team-panel__dolg">Sales director</span>
 								</div>
 							</div>
 						</div>
@@ -37,21 +37,21 @@ $APPLICATION->SetTitle("О нас");
 							<div class="team-panel">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/team/m2.jpg" alt="1" class="team-panel__photo">
 								<div class="team-panel__content">
-									<div class="team-panel__name">Карнаух Алексей<br>Сергеевич</div>
-									<span class="team-panel__dolg">Технический директор</span>
+									<div class="team-panel__name">Karnaukh Alexey<br>Sergeevich</div>
+									<span class="team-panel__dolg">Technical manager</span>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				<p class="h2">Достижения в цифрах</p>
+				<p class="h2">ACHIEVEMENTS IN NUMBERS</p>
 				<div class="about-fact">
 					<div class="about-fact__icon">
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/about/i1.svg" alt="1">
 					</div>
 					<div class="about-fact__content">
-						<span class="h3">104 выполненных<br>проекта</span>
+						<span class="h3">104 DELIVER<br>PROJECTS</span>
 					</div>
 				</div>
 				<div class="about-fact">
@@ -59,8 +59,8 @@ $APPLICATION->SetTitle("О нас");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/about/i2.svg" alt="1">
 					</div>
 					<div class="about-fact__content">
-						<span class="h3">4 производственные площадки</span>
-						<small>в России и Европе (Москва, Ростов-на-Дону и Словения)</small>
+						<span class="h3">4 MANUFACTURING AREAS</span>
+						<small>IN THE RUSSIAN FEDERATION AND EUROPE (MOSCOW, NOVOCHERKASSK AND SLOVENIA)</small>
 					</div>
 				</div>
 				<div class="about-fact">
@@ -68,8 +68,8 @@ $APPLICATION->SetTitle("О нас");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/about/i3.svg" alt="1">
 					</div>
 					<div class="about-fact__content">
-						<span class="h3">56 специалистов в команде</span>
-						<small>каждый мастер в своем деле</small>
+						<span class="h3">TEAM OF 56 SPECIALISTS</span>
+						<!--<small>каждый мастер в своем деле</small>-->
 					</div>
 				</div>
 				<div class="about-fact">
@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("О нас");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/about/i4.svg" alt="1">
 					</div>
 					<div class="about-fact__content">
-						<span class="h3">Собственная<br>лизинговая компания</span>
+						<span class="h3">OWN LEASING<br>COMPANY</span>
 					</div>
 				</div>
 				<div class="about-fact">
@@ -85,7 +85,7 @@ $APPLICATION->SetTitle("О нас");
 						<img src="<?=SITE_TEMPLATE_PATH?>/img/about/i5.svg" alt="1">
 					</div>
 					<div class="about-fact__content">
-						<span class="h3">Собственный<br>проектный институт</span>
+						<span class="h3">OWN DESIGN<br>INSTITUTE</span>
 					</div>
 				</div>
 
@@ -94,43 +94,43 @@ $APPLICATION->SetTitle("О нас");
 					<img src="<?=SITE_TEMPLATE_PATH?>/img/home/video-about.jpg" alt="video">
 					<div class="about-video__content">
 						<span class="btn-play btn-play--big"></span>
-						<span class="h3">Видео<br>о компании</span>
+						<span class="h3">VIDEO<br>ABOUT COMPANY</span>
 					</div>
 				</div>
 
 			</div>
 
 			<div class="grid-5 grid-offset-1 grid-offset-0_l grid-12_m about-history">
-				<p class="h2">Развитие компании</p>
+				<p class="h2">COMPANY ADVANCE</p>
 
 				<div class="history-item">
 					<span class="history-item__year">2009</span>
 					<div class="user-content">
-						<p><strong>Первая компания </strong>была юридически зарегистрирована в&nbsp;<strong>2009 году.</strong> На&nbsp;тот момент компания в&nbsp;основном занималась продажей криогенного оборудования и&nbsp;сопутствующей этому направлению техники.</p>
+						<p><strong>The first company </strong>company was legally registered <strong>in 2009</strong>. At that time, the company mainly engaged in the sale of cryogenic equipment and related equipment.</p>
 					</div>
 				</div>
 
 				<div class="history-item">
 					<span class="history-item__year">2013</span>
 					<div class="user-content">
-						<p>До 2013 года компания выступала дилером импортных производителей на&nbsp;территории РФ. Благодаря приложенным стараниям и&nbsp;усилиям компании удалось вывести на Российский рынок таких производителей как: Lupamat (Турция) – производитель компрессорного оборудования и&nbsp;Gazcon (Дания) - один из&nbsp;ведущих мировых производителей адсорбционных генераторов азота и&nbsp;кислорода (на данный момент входит в&nbsp;концерн Atlas Copco).</p>
-						<p>Учитывая рост дилерского участия на&nbsp;рынке, компания занималась активным поиском и&nbsp;привлечением качественных производителей за&nbsp;границей. Основатели компании провели технические аудиты среди десятков зарубежных заводов-производителей по&nbsp;всему миру, включая такие страны как: Франция, Италия, Дания, Швеция, Турция, Индия, Сингапур, Малайзия и&nbsp;Китай. За&nbsp;это время компания приобрела бесценный опыт сотрудничества с&nbsp;зарубежными поставщикам, заключила и&nbsp;реализовала множество успешных сделок. В&nbsp;ходе многолетних поисков руководство компании приняло решение об&nbsp;открытии собственного производства на&nbsp;территории РФ.</p>
+						<p>Until 2013 the company acted as a dealer of import manufacturers on the territory of the Russian Federation. Because of the applications to work and intensions of the company managed to get into the Russian marketing area from manufacturers such as: Lupamat (Turkey) - a manufacturer of compressor equipment and Gazcon (Denmark) - one of the world's leading manufacturers of nitrogen and oxygen adsorption generators (currently part of the Atlas Copco group).</p>
+						<p>Considering the growth of dealer participation in the marketing area , the company was actively seeking and attracting quality manufactures  abroad. The company's founders conducted technical audits among dozens of foreign manufacturing plants around the world, including countries such as France, Italy, Denmark, Sweden, Turkey, India, Singapore, Malaysia and China. During this time the company has gained invaluable experience of cooperation with foreign suppliers, has concluded and implemented many successful transactions. During many years of searching, the company's management decided to open its in-house fabrication on the territory of the Russian Federation.</p>
 					</div>
 				</div>
 
 				<div class="history-item">
 					<span class="history-item__year">2014</span>
 					<div class="user-content">
-						<p><strong>В&nbsp;2014 году был</strong> произведен <strong>первый генератор азота короткоцикловой адсорбции</strong> по&nbsp;собственной технологии и&nbsp;на&nbsp;собственной производственной площадке.</p>
+						<p><strong>The first pressure swing adsorption nitrogen generator</strong> was produced by its own technology and on its own manufacturing area <strong>in 2014</strong></p>
 					</div>
 				</div>
 
 				<div class="history-item">
 					<span class="history-item__year">2015</span>
 					<div class="user-content">
-						<p><strong>В&nbsp;2015 году в&nbsp;связи с&nbsp;расширением был построен новый производственный цех в&nbsp;г.&nbsp;Москва.</strong></p>
-						<p>На&nbsp;данный момент в&nbsp;Московском офисе работает 20&nbsp;высококвалифицированных сотрудников, которые прошли обучение в&nbsp;лучших ВУЗах страны и&nbsp;за&nbsp;рубежом.</p>
-						<p>Оборудование, произведённое компанией Дженерал Газ, успешно эксплуатируется как в&nbsp;России, так за&nbsp;рубежом. На данный момент география компании насчитывает 6&nbsp;стран: Россия, Белоруссия, Казахстан, Украина, Монголия и даже Экваториальная Гвинея. Собственные производственные мощности позволяют производить оборудование в&nbsp;рекордно короткие сроки.</p>
+						<p><strong>A new production workshop was built in Moscow in connection with the expansion in 2015.</strong></p>
+						<p>The Moscow office employs 14 highly qualified specialists who have been trained in the best universities in the country and abroad.</p>
+						<p>General Gas equipment is successfully used both in Russia and abroad. The geography of the company includes 6 countries: Russia, Belarus, Kazakhstan, Ukraine, Mongolia and even Equatorial Guinea. Own production capacity allows to produce equipment the earliest possible date.</p>
 					</div>
 				</div>
 
@@ -253,32 +253,32 @@ $APPLICATION->SetTitle("О нас");
 	<div class="container">
 
 		<div class="contacts-callback">
-			<p class="h2 contacts-callback__title">Напишите нам</p>
-			<p class="lead contacts-callback__subtitle">Отправьте ваш вопрос и менеджер свяжется с вами в течении 15 минут.</p>
+			<p class="h2 contacts-callback__title">WRITE US</p>
+			<p class="lead contacts-callback__subtitle">Send your question and the manager will contact you within 15 minutes.</p>
 
 			<form class="ajax-form column-form grey-form">
 				<div class="row">
 
 					<div class="grid-5 grid-12_s">
-						<input type="text" name="user_name" placeholder="Ваше имя" data-label="Имя пользователя">
-						<span class="form-subtitle">Как с Вами связаться?</span>
-						<input type="tel" name="user_tel" placeholder="Телефон*" data-label="Телефон" data-req="true">
+						<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя">
+						<span class="form-subtitle">How to contact you?</span>
+						<input type="tel" name="user_tel" placeholder="Telephone number*" data-label="Телефон" data-req="true">
 						<input type="text" name="user_email" placeholder="E-mail*" data-label="E-mail" data-req="true">
 					</div>
 
 					<div class="grid-7 grid-12_s">
-						<textarea name="user_comment" rows="7" placeholder="Опишите ваш вопрос" data-label="Сообщение"></textarea>
+						<textarea name="user_comment" rows="7" placeholder="Question" data-label="Сообщение"></textarea>
 						<label class="style-fileinput link">
 							<input type="file" name="file[]" data-multiple-caption="{count} файла(ов)" multiple />
-							<i class="i-skrep"></i><span class="style-fileinput__text">Прикрепить файл</span>
+							<i class="i-skrep"></i><span class="style-fileinput__text">Attach file</span>
 						</label>
 					</div>
 
 					<div class="grid-12 column-form__btnwrap">
 						<input type="hidden" value="Обратная связь (о нас)" name="form_subject">
-						<button type="submit" class="btn btn--icon">Отправить <i class="i-forward"></i></button>
+						<button type="submit" class="btn btn--icon">Send <i class="i-forward"></i></button>
 					</div>
-					<p class="grid-12 form-note">Мы не передаем Вашу персональную информацию третьим лицам.<br>Нажимая кнопку «Отправить заявку» вы даете <a href="#">согласие на обработку персональных данных.</a></p>
+					<p class="grid-12 form-note">We do not share your personal information with third parties. By clicking the button "Send ", you consent to <a href="#">personal data processing</a>.</p>
 				</div>
 			</form>
 

@@ -748,7 +748,7 @@ $(document).ready(function() {
 
 		var link_text = $(this).text();
 		$(this).text(
-			link_text == "Посмотреть полную таблицу" ? "Свернуть таблицу" : "Посмотреть полную таблицу");
+			link_text == "View full table" ? "Hide table" : "View full table");
 	})
 });
 /***********************

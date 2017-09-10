@@ -7,32 +7,32 @@
 					<a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo.svg" alt="General Gas logotype" width="281" height="42"></a>
 				</div>
 				<div class="foot-left-text">
-					<a href="/upload/Requisites_GG.docx" class="link" target="_blank" rel="nofollow" download>Реквизиты компании</a>
-					<p>General Gas – производство генераторов азота и&nbsp;кислорода</p>
+					<a href="/upload/Requisites_GG.docx" class="link" target="_blank" rel="nofollow" download>Company details</a>
+					<p>General Gas – production of nitrogen and oxygen generators</p>
 					<p>2004–2017. General Gas</p>
 				</div>
 			</div>
 
 			<div class="grid-3 grid-3_l grid-12_m grid-offset-3 grid-offset-0_l s-site-footer__nav">
 				<nav class="foot-nav">
-					<a href="/products/">Продукция</a>
-					<a href="/factory/">Производство</a>
-					<a href="/cases/">Проекты</a>
-					<a href="/info/">Полезная информация</a>
-					<a href="/usage/">Применения</a>
-					<a href="/about/">О нас</a>
-					<a href="/contacts/">Контакты</a>
+					<a href="/products/">PRODUCTS</a>
+					<a href="/factory/">PRODUCTION</a>
+					<a href="/cases/">PROJECTS</a>
+					<a href="/info/">USEFUL INFORMATION</a>
+					<a href="/usage/">APPLICATION</a>
+					<a href="/about/">ABOUT US</a>
+					<a href="/contacts/">CONTACTS</a>
 				</nav>
 			</div>
 
 			<div class="grid-3 grid-4_l grid-12_m s-site-footer__right">
 				<div class="lang-switcher">
-					<a href="#" class="link--blue active">рус</a>
+					<a href="http://general-gas.ru" class="link--blue">rus</a>
 					<span>/</span>
-					<a href="#" class="link--blue">eng</a>
+					<a href="http://general-gas.com" class="link--blue active">eng</a>
 				</div>
 				<div class="foot-rigth-text">
-					<address>Адрес: г. Москва 1-й Грайвороновский проезд 20, строение 35, Бизнес Парк «Турас», 5 Этаж</address>
+					<address>Adress: Moscow, 1st Graivoronovsky Passage 20, Building 35, Business Park "Turas", 5 Floor</address>
 					<a href="tel:+7(499)399-34-77" class="link--black h3 foot-rigth-text__phone">+7 (499) 399-34-77</a>
 					<a href="mailto:info@general-gas.ru" class="link head-info__mail">info@general-gas.ru</a>
 				</div>
@@ -44,7 +44,7 @@
 
 <section class="s-policy">
 	<div class="container lead">
-		Все права защишены, копирование информации запрещено.
+		All rights are protected, copying of information is prohibited.
 	</div>
 </section>
 
@@ -65,19 +65,19 @@
 	</div>
 
 	<div id="modal-order" class="modal">
-		<p class="h3 modal__title">Оставить заявку</p>
-		<p class="modal__subtitle">Оставьте заявку и наш менеджер свяжется с&nbsp;Вами и вышлет все необходимые материалы Вам на почту</p>
+		<p class="h3 modal__title">Leave an application</p>
+		<p class="modal__subtitle">Our manager will contact you within 15 minutes to clarify the details</p>
 		<form class="ajax-form vertical-form">
-			<input type="text" name="user_name" placeholder="Введите ваше имя" data-label="Имя пользователя">
-			<input type="tel" name="user_contacts" placeholder="Введите ваш телефон*" data-label="Контакты" data-req="true">
-			<input type="email" name="user_email" placeholder="Введите ваш e-mail" data-label="E-mail">
+			<input type="text" name="user_name" placeholder="Your name" data-label="Имя пользователя">
+			<input type="tel" name="user_contacts" placeholder="Telephone number*" data-label="Контакты" data-req="true">
+			<input type="email" name="user_email" placeholder="E-mail" data-label="E-mail">
 			<input type="hidden" value="Новая заявка (референс)" name="form_subject">
-			<button type="submit" class="btn btn--icon">Отправить <i class="i-forward"></i></button>
+			<button type="submit" class="btn btn--icon">Send <i class="i-forward"></i></button>
 		</form>
 	</div>
 
 	<div id="modal-thanks" class="modal">
-		<p class="h3 modal__title modal__title--nomargin">Спасибо за заявку!</p>
+		<p class="h3 modal__title modal__title--nomargin">Thanks!</p>
 	</div>
 
 </div>

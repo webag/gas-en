@@ -11,9 +11,9 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
 	<section class="s-pagination">
 		<div class="container">
 			<?if($arResult["NavPageNomer"] > 1) : // Если страница не первая ?>
-				<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>" class="pag-btn pag-btn--prev"><i class="i-right-ar"></i> Назад</a>
+				<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>" class="pag-btn pag-btn--prev"><i class="i-right-ar"></i> Previous</a>
 			<? else: ?>
-				<a href="#" class="pag-btn pag-btn--prev pag-btn--disabled"><i class="i-right-ar"></i> Назад</a>
+				<a href="#" class="pag-btn pag-btn--prev pag-btn--disabled"><i class="i-right-ar"></i> Previous</a>
 			<? endif; ?>
 
 
@@ -29,9 +29,9 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
 			</nav>
 
 			<?if($arResult["NavPageNomer"] < $arResult["NavPageCount"]) : // Если страница не последняя ?>
-				<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>" class="pag-btn pag-btn--next">Вперед <i class="i-right-ar"></i></a>
+				<a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>" class="pag-btn pag-btn--next">Next <i class="i-right-ar"></i></a>
 			<? else:?>
-				<a href="#" class="pag-btn pag-btn--next pag-btn--disabled">Вперед <i class="i-right-ar"></i></a>
+				<a href="#" class="pag-btn pag-btn--next pag-btn--disabled">Next <i class="i-right-ar"></i></a>
 			<? endif ?>
 		</div>
 	</section>

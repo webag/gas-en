@@ -20,7 +20,7 @@ $this->setFrameMode(true);
 	</div>
 
 	<div class="container">
-		<h2 class="h1">Наша команда</h2>
+		<h2 class="h1">Our team</h2>
 	</div>
 
 	<!--noindex-->

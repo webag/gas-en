@@ -24,7 +24,7 @@ $this->setFrameMode(true);
 				<div class="intro-thumb__img" style="background-image: url('<?=$photo_img["src"]?>')"></div>
 			<? endif; ?>
 			<header class="intro-thumb__header">
-				<div class="intro-label intro-label--pr">Свежие проекты</div>
+				<div class="intro-label intro-label--pr">New projects</div>
 			</header>
 			<h5 class="lead"><?=$arItem["NAME"]?></h5>
 		</a>

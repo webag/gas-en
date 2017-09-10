@@ -12,8 +12,8 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 			<div class="container">
 				<div class="grid-offset-1 grid-offset-0_l home-slide__content">
 					<span class="h3 home-slide__uptitle">Производим лучшие</span>
-					<h2 class="home-slide__title home-slide__title--home">генераторы<br>азота</h2>
-					<span class="h3 home-slide__subtitle">с&nbsp;доставкой в&nbsp;любую точку мира</span>
+					<h2 class="home-slide__title home-slide__title--home">nitrogen<br>generators</h2>
+					<span class="h3 home-slide__subtitle">Shipping worldwide</span>
 					<div class="home-slide__triggers">
 						<div class="home-slide-trigger">
 							<div class="home-slide-trigger__icon">
@@ -25,7 +25,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 							<div class="home-slide-trigger__icon">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/home/trigger_2.svg" alt="">
 							</div>
-							<div class="home-slide-trigger__text">Гарантия 2&nbsp;года</div>
+							<div class="home-slide-trigger__text">2 years assurance</div>
 						</div>
 						<div class="home-slide-trigger">
 							<div class="home-slide-trigger__icon">
@@ -40,7 +40,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 							<div class="home-slide-trigger__text">Аренда от&nbsp;60&nbsp;000&nbsp;руб. в&nbsp;месяц</div>
 						</div>
 					</div>
-					<a href="/generatory-azota/" class="btn btn--icon">Подробнее<i class="i-right-ar"></i></a>
+					<a href="/generatory-azota/" class="btn btn--icon">Details<i class="i-right-ar"></i></a>
 				</div>
 			</div>
 		</div>
@@ -49,8 +49,8 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 			<div class="container">
 				<div class="grid-offset-1 grid-offset-0_l home-slide__content">
 					<span class="h3 home-slide__uptitle">Производим лучшие</span>
-					<h2 class="home-slide__title home-slide__title--home">генераторы<br>кислорода</h2>
-					<span class="h3 home-slide__subtitle">с&nbsp;доставкой в&nbsp;любую точку мира</span>
+					<h2 class="home-slide__title home-slide__title--home">oxygen<br>generators</h2>
+					<span class="h3 home-slide__subtitle">Shipping worldwide</span>
 					<div class="home-slide__triggers">
 						<div class="home-slide-trigger">
 							<div class="home-slide-trigger__icon">
@@ -62,7 +62,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 							<div class="home-slide-trigger__icon">
 								<img src="<?=SITE_TEMPLATE_PATH?>/img/home/trigger_2.svg" alt="">
 							</div>
-							<div class="home-slide-trigger__text">Гарантия 2&nbsp;года</div>
+							<div class="home-slide-trigger__text">2 years assurance</div>
 						</div>
 						<div class="home-slide-trigger">
 							<div class="home-slide-trigger__icon">
@@ -77,7 +77,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 							<div class="home-slide-trigger__text">Аренда от&nbsp;60&nbsp;000&nbsp;руб. в&nbsp;месяц</div>
 						</div>
 					</div>
-					<a href="/generatory-kisloroda/" class="btn btn--icon">Подробнее<i class="i-right-ar"></i></a>
+					<a href="/generatory-kisloroda/" class="btn btn--icon">Details<i class="i-right-ar"></i></a>
 				</div>
 			</div>
 		</div>
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 								</figure>
 							</div>
 							<footer class="home-product__footer">
-								<div class="link">Генераторы азота</div>
+								<div class="link">Nitrogen generators</div>
 							</footer>
 							<a href="/generatory-azota/" class="home-product__link"></a>
 						</div>
@@ -129,7 +129,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 								</figure>
 							</div>
 							<footer class="home-product__footer">
-								<div class="link">Генераторы кислорода</div>
+								<div class="link">Oxygen generators</div>
 							</footer>
 							<a href="/generatory-kisloroda/" class="home-product__link"></a>
 						</div>
@@ -145,7 +145,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 								</figure>
 							</div>
 							<footer class="home-product__footer">
-								<div class="link">Модульные азотные станции</div>
+								<div class="link">Modular nitrogen stations</div>
 							</footer>
 							<a href="#" class="home-product__link"></a>
 						</div>
@@ -161,7 +161,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 								</figure>
 							</div>
 							<footer class="home-product__footer">
-								<div class="link">Модульные кислородные станции</div>
+								<div class="link">Modular oxygen stations</div>
 							</footer>
 							<a href="#" class="home-product__link"></a>
 						</div>
@@ -308,7 +308,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 	<div class="container">
 		<header class="s-home-news__header">
 			<h2 class="h1">Новости компании</h2>
-			<a href="/news/" class="link"><i class="i-news"></i>Все новости <i class="i-right-ar"></i></a>
+			<a href="/news/" class="link"><i class="i-news"></i>All news <i class="i-right-ar"></i></a>
 		</header>
 
 		<div class="row home-news-mainrow">
@@ -465,8 +465,8 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 
 				<div class="home-articles">
 					<header class="home-articles__header">
-						<h3 class="h3">статьи</h3>
-						<a href="/info/" class="link">Все статьи <i class="i-right-ar"></i></a>
+						<h3 class="h3">Articles</h3>
+						<a href="/info/" class="link">All articles <i class="i-right-ar"></i></a>
 					</header>
 					<?$APPLICATION->IncludeComponent(
 						"bitrix:news.list",
@@ -611,7 +611,7 @@ $APPLICATION->SetTitle("General Gas | Производим генераторы 
 					</div>
 					<div class="grid-6 grid-12_xs">
 						<a href="/cases/" class="intro-link-to-projects">
-							<div class="h3">Все выполненые поекты</div>
+							<div class="h3">All projects</div>
 						</a>
 					</div>
 				</div>

@@ -1,11 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Продукция");
+$APPLICATION->SetTitle("Products");
 ?>
 
 <section class="s-page-title">
 	<div class="container">
-		<h1 class="h1">Продукция</h1>
+		<h1 class="h1">Products</h1>
 	</div>
 </section>
 
@@ -25,7 +25,7 @@ $APPLICATION->SetTitle("Продукция");
 						</figure>
 					</div>
 					<footer class="home-product__footer">
-						<div class="link">Генераторы азота</div>
+						<div class="link">Nitrogen generators</div>
 					</footer>
 					<a href="/generatory-azota/" class="home-product__link"></a>
 				</div>
@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("Продукция");
 						</figure>
 					</div>
 					<footer class="home-product__footer">
-						<div class="link">Генераторы кислорода</div>
+						<div class="link">Oxygen generators</div>
 					</footer>
 					<a href="/generatory-kisloroda/" class="home-product__link"></a>
 				</div>
@@ -57,7 +57,7 @@ $APPLICATION->SetTitle("Продукция");
 						</figure>
 					</div>
 					<footer class="home-product__footer">
-						<div class="link">Модульные азотные станции</div>
+						<div class="link">Modular nitrogen stations</div>
 					</footer>
 					<a href="#" class="home-product__link"></a>
 				</div>
@@ -73,7 +73,7 @@ $APPLICATION->SetTitle("Продукция");
 						</figure>
 					</div>
 					<footer class="home-product__footer">
-						<div class="link">Модульные кислородные станции</div>
+						<div class="link">Modular oxygen stations</div>
 					</footer>
 					<a href="#" class="home-product__link"></a>
 				</div>

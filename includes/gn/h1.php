@@ -1,1 +1,1 @@
-генераторы азота с&nbsp;концентрацией до&nbsp;99,9999%
+Nitrogen generators at&nbsp;a&nbsp;concentration to&nbsp;99,9999%

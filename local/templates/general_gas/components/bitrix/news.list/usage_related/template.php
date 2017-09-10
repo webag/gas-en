@@ -17,7 +17,7 @@ $this->setFrameMode(true);
 <section class="s-inner-related <? echo (empty($arResult["ITEMS"]) ? 's-inner-related--noitems' : '')?>">
 	<? if (!empty($arResult["ITEMS"])) : ?>
 		<div class="container">
-			<p class="h2">Вам будет интересно</p>
+			<p class="h2">You be of interes</p>
 
 			<div class="row">
 				<?foreach($arResult["ITEMS"] as $arItem):?>
