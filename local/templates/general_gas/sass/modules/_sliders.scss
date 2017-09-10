@@ -1,0 +1,84 @@
+.flickity-viewport {
+	touch-action: pan-y !important;
+}
+
+.flickity-prev-next-button{
+	width: 32px;
+	height: 32px;
+	background: transparentize($light-blue,0.8);
+	transition: background 0.3s ease;
+
+	&:hover{
+		opacity: 1;
+		background: $orange-hover;
+
+		.arrow{
+			fill: #FFF;
+		}
+	}
+
+	&:active{
+		opacity: 0.9;
+		background: $orange-hover;
+
+		.arrow{
+			fill: #FFF;
+		}
+	}
+
+	&:disabled{
+		pointer-events: none;
+	}
+
+	svg{
+		width: 12px;
+		height: 12px;
+		left: 10px;
+		top: 10px;
+	}
+
+	.arrow{
+		fill: $light-blue;
+		transition: all 0.3s ease;
+	}
+}
+
+.slider-black-arrows{
+	.flickity-prev-next-button{
+		.arrow{
+			fill: $black;
+		}
+		&:hover{
+			.arrow{
+				fill: #FFF;
+			}
+		}
+		&:active{
+			.arrow{
+				fill: #FFF;
+			}
+		}
+	}
+}
+
+
+.flickity-page-dots{
+
+	.dot{
+		margin-left: 0;
+		margin-right: 10px;
+		width: 11px;
+		height: 11px;
+		background: #7f8fb0;
+		opacity: 1;
+		transition: background 0.3s ease;
+
+		&:hover{
+			background: $orange-hover;
+		}
+
+		&.is-selected{
+			background: $black;
+		}
+	}
+}

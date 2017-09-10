@@ -1,0 +1,96 @@
+Options -Indexes
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+  php_flag session.use_trans_sid off
+  #php_value display_errors 1
+  php_value mbstring.func_overload 2
+  php_value mbstring.internal_encoding UTF-8
+  php_value max_input_vars 100000
+  php_value pcre.recursion_limit 14000
+  php_value opcache.revalidate_freq 0
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME} [\xC2-\xDF][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} \xE0[\xA0-\xBF][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} [\xE1-\xEC\xEE\xEF][\x80-\xBF]{2} [OR]
+RewriteCond %{REQUEST_FILENAME} \xED[\x80-\x9F][\x80-\xBF] [OR]
+RewriteCond %{REQUEST_FILENAME} \xF0[\x90-\xBF][\x80-\xBF]{2} [OR]
+RewriteCond %{REQUEST_FILENAME} [\xF1-\xF3][\x80-\xBF]{3} [OR]
+RewriteCond %{REQUEST_FILENAME} \xF4[\x80-\x8F][\x80-\xBF]{2}
+RewriteCond %{REQUEST_FILENAME} !/bitrix/virtual_file_system.php$
+RewriteRule ^(.*)$ /bitrix/virtual_file_system.php [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 10 day"
+  ExpiresByType image/gif "access plus 10 day"
+  ExpiresByType image/png "access plus 10 day"
+  ExpiresByType image/svg+xml "access plus 10 day"
+  ExpiresByType text/css "access plus 10 day"
+  ExpiresByType application/javascript "access plus 10 day"
+</IfModule>
+
+
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+
+Redirect 301 /o-kompanii/ http://general-gas.ru/about/
+Redirect 301 /gk-dlya-uzv-ryborazvedeniya/ http://general-gas.ru/generatory-kisloroda/
+Redirect 301 /kislorodnaya-stanciya-dlya-bolnicy-i-med-uchrezhdenij-kupit-v-moskve-kislorodnaya-stanciya-medicinskaya/ http://general-gas.ru/generatory-kisloroda/
+Redirect 301 /contact/ http://general-gas.ru/contacts/
+Redirect 301 /ga-dlya-lazernoj-rezki/ http://general-gas.ru/generatory-azota/
+Redirect 301 /vru-dla-poluchenia-azota/ http://general-gas.ru/generatory-azota/
+Redirect 301 /ob-adsorbcii/ http://general-gas.ru/generatory-azota/
+Redirect 301 /otraslevie-resheniya/ http://general-gas.ru/usage/
+Redirect 301 /nashe-proizvodstvo/ http://general-gas.ru/factory/
+Redirect 301 /ga-i-kisloroda-v-pishhevoj-promyshlennosti/ http://general-gas.ru/usage/
+Redirect 301 /gk-v-ryborazvedenii/ http://general-gas.ru/usage/
+Redirect 301 /vakansii/ http://general-gas.ru/contacts/
+Redirect 301 /electric/ http://general-gas.ru/products/
+Redirect 301 /gk-i-azota-v-medecine/ http://general-gas.ru/usage/
+Redirect 301 /faq/ http://general-gas.ru/about/
+Redirect 301 /ga-v-stekolnoj-promyshlennosti/ http://general-gas.ru/usage/
+Redirect 301 /f400/ http://general-gas.ru/products/
+Redirect 301 /ga-i-kisloroda-v-farmacefticheskoj-promyshlennosti/ http://general-gas.ru/usage/
+Redirect 301 /portfolio-item/* http://general-gas.ru/cases/
+Redirect 301 /gk-i-azota-v-stroitelstve/ http://general-gas.ru/usage/
+Redirect 301 /vypolnennye-proekty/ http://general-gas.ru/cases/
+Redirect 301 /category/ http://general-gas.ru/products/
+Redirect 301 /ga-dlya-pajki/ http://general-gas.ru/generatory-azota/
+Redirect 301 /gk-pri-vodopodgotovke/ http://general-gas.ru/usage/
+#Redirect 301
+</IfModule>
+
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>

@@ -1,0 +1,43 @@
+.s-factory{
+	background: $white-bg;
+	padding-bottom: $pad-xl;
+
+	.container{
+		position: relative;
+		padding-top: $pad-l;
+
+		&:after{
+			content: '';
+			position: absolute;
+			width: calc(100% - 32px);
+			height: 4px;
+			left: 16px;
+			top: 0;
+			background: $black;
+		}
+	}
+
+	&__type{
+		display: block;
+		text-transform: uppercase;
+	}
+
+	&__left{
+		@include res(s){
+			margin-bottom: $pad-m;
+		}
+	}
+
+	.bordered-img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+.factory-mission{
+	margin-top: $pad-m;
+
+	&__title{
+		text-transform: uppercase;
+	}
+}

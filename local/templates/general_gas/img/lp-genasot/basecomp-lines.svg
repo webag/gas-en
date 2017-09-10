@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290.9 611.74">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #00c0f8;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>basecomp-lines</title>
+  <g>
+    <path class="a" d="M.93.38,71.59,175.05"/>
+    <path class="a" d="M20.29,15.58l74,168.54"/>
+    <path class="a" d="M39.21,30.16l77.38,162.4"/>
+    <path class="a" d="M57.6,44.33l80.73,156.25"/>
+    <path class="a" d="M75.12,58.76l84.09,150.11"/>
+    <path class="a" d="M91.17,74.38l87.44,144"/>
+    <path class="a" d="M105.66,91.12,196.46,229"/>
+    <path class="a" d="M118.51,108.87l94.15,131.69"/>
+    <path class="a" d="M129.6,127.56,227.1,253.11"/>
+    <path class="a" d="M138.75,147.08,239.61,266.48"/>
+    <path class="a" d="M146.2,167.09,250.42,280.36"/>
+    <path class="a" d="M152,187.42,259.58,294.55"/>
+    <path class="a" d="M156.3,207.91l110.93,101"/>
+    <path class="a" d="M159.2,228.4l114.28,94.84"/>
+    <path class="a" d="M160.86,248.79l117.64,88.7"/>
+    <path class="a" d="M161.44,269l121,82.56"/>
+    <path class="a" d="M161.08,288.93l124.35,76.42"/>
+    <path class="a" d="M159.92,308.57l127.7,70.28"/>
+    <path class="a" d="M158.07,327.9,289.13,392"/>
+    <path class="a" d="M155.66,346.9l134.41,58"/>
+    <path class="a" d="M152.76,365.57l137.77,51.86"/>
+    <path class="a" d="M149.47,383.91l141.12,45.71"/>
+    <path class="a" d="M145.84,401.93l144.48,39.57"/>
+    <path class="a" d="M141.81,419.62l147.83,33.43"/>
+    <path class="a" d="M137.54,437,288.73,464.3"/>
+    <path class="a" d="M133.1,454.1l154.54,21.15"/>
+    <path class="a" d="M128.44,470.91l157.9,15"/>
+    <path class="a" d="M123.57,487.42l161.25,8.87"/>
+    <path class="a" d="M118.63,503.68l164.61,2.73"/>
+    <path class="a" d="M113.53,519.68l168-3.41"/>
+    <path class="a" d="M108.32,535.42l171.32-9.55"/>
+    <path class="a" d="M103.08,550.94l174.67-15.7"/>
+    <path class="a" d="M97.69,566.21l178-21.84"/>
+    <path class="a" d="M92.31,581.28l181.38-28"/>
+    <path class="a" d="M86.82,596.12,271.56,562"/>
+    <path class="a" d="M81.34,610.77l188.09-40.26"/>
+  </g>
+</svg>

@@ -1,0 +1,181 @@
+.s-main-nav{
+	background: $light-bg;
+	@include res(m){
+		position: fixed;
+		z-index: 40;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		transform: translate3d(-400px,0,0);
+		overflow-y: scroll;
+		-webkit-backface-visibility: hidden;
+		transition: transform 0.5s ease,visibility 0.5s ease;
+		width: 400px;
+		max-width: 100%;
+		visibility: hidden;
+		will-change: transform,visibility;
+	}
+
+	&--lp,&--fix{
+		&.is-fixed{
+			position: fixed;
+			z-index: 40;
+			top: 0;
+			left: 0;
+			width: 100%;
+			@include res(m){
+				width: 400px;
+			}
+		}
+	}
+
+	&.opened{
+		transform: none;
+		visibility: visible;
+	}
+
+	&__wrapforfix{
+		height: 55px;
+		@include res(l){
+			height: 52px;
+		}
+		@include res(m){
+			height: 0;
+		}
+	}
+
+	.container{
+		display: flex;
+		justify-content: space-around;
+		@include res(m){
+			display: block;
+			margin-bottom: $pad-l;
+		}
+
+		a{
+			display: block;
+			position: relative;
+			font-size: 15px;
+			text-transform: uppercase;
+			white-space: nowrap;
+			font-weight: 500;
+			line-height: 1;
+			padding: 20px 0;
+			transition: color 0.3s ease;
+			margin: 0 $pad-xs;
+			@include res(l){
+				font-size: 12px;
+			}
+			@include res(m){
+				font-size: 15px;
+				margin: 0;
+			}
+
+			&:hover{
+				color: $orange-hover;
+			}
+
+			&.active{
+				&:after{
+					transform: none;
+				}
+			}
+
+			&:after{
+				content: '';
+				width: 100%;
+				height: 4px;
+				background: $orange;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				transform: scaleX(0);
+				transform-origin: left center;
+				will-change: transform;
+				transition: transform 0.3s ease;
+			}
+		}
+	}
+
+	&__phone{
+		display: none;
+		text-align: right;
+		padding: 20px $pad-s $pad-s $pad-s;
+		@include res(m){
+			display: block;
+		}
+	}
+}
+
+
+//menu-btn
+.menu-btn{
+	width: 38px;
+	height: 38px;
+	cursor: pointer;
+	white-space: nowrap;
+	display: none;
+	user-select: none;
+	position: fixed;
+	z-index: 50;
+	left: $pad-s;
+	top: $pad-s;
+	background-color: $white-bg;
+	border-radius: 5px;
+	@extend %shadow-on-white-bg;
+	@include res(m){
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	figure{
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		width: 21px;
+		height: 2px;
+		background-color: $black;
+		transition: all 0.3s ease;
+		will-change: transform,opacity;
+		transform: translate3d(0,0,0);
+
+		&:before,&:after{
+			content: "";
+			width: 21px;
+			height: 2px;
+			position: absolute;
+			left: 0;
+			background-color: $black;
+			transition: all 0.3s ease;
+			will-change: transform,opacity;
+			transform: translate3d(0,0,0);
+		}
+
+		&:before{
+			top: -7px;
+		}
+
+		&:after{
+			bottom: -7px;
+		}
+	}
+
+	&.active{
+		figure{
+			transform: rotate(45deg);
+
+			&:after{
+				transform: scale3d(0.5,0.5,0.5);
+				opacity: 0;
+
+			}
+			&:before{
+				transform: rotate(-90deg);
+				top: 0;
+			}
+		}
+	}
+}
+//menu-btn

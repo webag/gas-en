@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 683.21 570.78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1abbee;
+        stroke-linecap: round;
+        stroke-miterlimit: 22.93;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>callback-lines</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="_1" data-name="1">
+      <g>
+        <path class="cls-1" d="M118.33,323.38,23.77,12.12" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M133.89,326.63,47.63,24.36" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M149.17,330.56,71.2,37.3" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M164.29,334.84,94.62,50.58" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M179.18,339.63,117.8,64.37" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M193.65,345.2,140.57,78.95" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M207.8,351.36,163,94.11" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M221.51,358.24,185,110" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M234.62,366,206.42,126.76" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M246.93,374.84,227,144.59" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M258.4,384.65,246.78,163.4" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M268.86,395.48l-3.32-212.24" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M278.11,407.37l5-203.24" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M286.22,420.13l13.26-194.24" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M293.37,433.54,314.93,248.3" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M299.83,447.37l29.85-176.24" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M306,461.37l38.15-167.24" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M312.44,475.21,358.88,317" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M319.56,488.64l54.73-149.23" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M327.84,501.28l63-140.23" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M337.39,512.92l71.32-131.23" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M348.17,523.43,427.78,401.2" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M360.05,532.75,448,419.52" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M372.88,540.9l96.2-104.22" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M386.45,548l104.5-95.22" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M400.59,554.14l112.79-86.22" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M415.17,559.52,536.26,482.3" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M430.25,563.9l129.38-68.22" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M445.56,567.76l137.67-59.22" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M461,571.21,607,521" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M476.83,573.86l154.26-41.21" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M492.69,576.32l162.55-32.21" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M508.73,578.2,679.58,555" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M524.84,579.9,704,565.69" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M541.08,581.12" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M557.35,582.26" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M573.74,582.91" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M606.46,584.49" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M622.34,586.86" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M637.71,590.56" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M102.85,320.26" transform="translate(-22.27 -10.62)"/>
+        <path class="cls-1" d="M0,0" transform="translate(-22.27 -10.62)"/>
+      </g>
+    </g>
+  </g>
+</svg>

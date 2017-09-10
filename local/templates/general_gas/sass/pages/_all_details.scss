@@ -1,0 +1,209 @@
+//s-inner
+.s-inner{
+	background: $light-bg;
+	padding-top: $pad-l;
+	@include res(m){
+		padding-top: $pad-m;
+	}
+	@include res(s){
+		padding-top: $pad-s;
+	}
+
+	&:before{
+		content: '';
+		width: 100%;
+		height: 600px;
+		background: $white-bg;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+}
+
+.inner-block{
+	background: #FFF;
+	@extend %shadow-on-white-bg;
+	margin-bottom: -220px;
+	z-index: 3;
+	position: relative;
+
+	&__content{
+		max-width: 590px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__topimg{
+		width: 100%;
+		height: auto;
+	}
+
+	&__header{
+		border-bottom: 1px solid $light-bg;
+		padding: $pad-m $pad-s $pad-l $pad-s;
+		text-align: center;
+		@include res(l){
+			padding: $pad-s;
+		}
+
+		time{
+			display: inline-block;
+			color: $light-text;
+			margin-bottom: $pad-s;
+		}
+
+		&--mod{
+			padding: $pad-m $pad-s $pad-m $pad-s;
+			@include res(l){
+				padding: $pad-s;
+			}
+
+			time{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	&__title{
+		margin-bottom: $pad-xs;
+	}
+
+	&__subtitle{
+		font-size: 18px;
+		line-height: 1.3;
+		@include res(l){
+			font-size: 16px;
+		}
+	}
+
+	&__topshare{
+		margin-top: $pad-l;
+		@include res(l){
+			margin-top: $pad-m;
+		}
+	}
+
+	&__main{
+		padding: $pad-l $pad-s $pad-m $pad-s;
+		@include res(l){
+			padding: $pad-s;
+		}
+	}
+
+	&__footer{
+		padding: 0 $pad-s 0 $pad-s;
+
+		.inner-block__content{
+			padding: $pad-m 0 $pad-l 0;
+			border-top: 4px solid $black;
+			@include res(l){
+				padding: $pad-s 0;
+			}
+		}
+
+		time{
+			color: $light-text;
+			white-space: nowrap;
+		}
+	}
+
+	&__views{
+		color: $light-text;
+		display: inline-flex;
+		align-items: center;
+		margin-right: $pad-m;
+
+		img{
+			margin-right: $pad-xs;
+		}
+	}
+
+	&__bottomshare{
+		margin-top: $pad-s;
+		@include res(l){
+			margin-top: $pad-xs;
+		}
+	}
+
+	&__bottomshare-title{
+		font-size: 18px;
+		display: block;
+		margin-bottom: $pad-xs;
+	}
+}
+
+
+.inner-block-intro{
+	min-height: 450px;
+	background-size: cover;
+	background-position: center center;
+	background-color: $black;
+	position: relative;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: $pad-xl $pad-xxl;
+	@include res(xl){
+		min-height: 350px;
+	}
+	@include res(s){
+		min-height: inherit;
+		padding: $pad-xl $pad-xs;
+	}
+
+	&:before{
+		content: '';
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: rgba(0,0,0,0.4);
+		z-index: 1;
+	}
+
+	&__content{
+		position: relative;
+		z-index: 2;
+	}
+	
+	.inner-block__title{
+		color: #FFF;
+	}
+	
+	.inner-block__subtitle{
+		color: #FFF;
+	}
+}
+//s-inner
+
+
+//s-inner-related
+.s-inner-related{
+	background: $white-bg;
+	padding-top: 220px;
+	padding-bottom: $pad-xl;
+	z-index: 2;
+
+	.container{
+		padding-top: $pad-xl;
+		@include res(s){
+			padding-top: $pad-l;
+		}
+	}
+
+	.h2{
+		margin-bottom: $pad-l;
+		text-align: center;
+		@include res(s){
+			margin-bottom: $pad-m;
+		}
+	}
+
+	&--noitems{
+		padding-bottom: 0;
+	}
+}
+//s-inner-related

@@ -1,0 +1,38 @@
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/placeholders';
+
+@import 'vendors/fancybox';
+@import 'vendors/flickity';
+
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/icons';
+@import 'base/typography';
+@import 'base/grid';
+@import 'base/layout';
+
+@import 'modules/forms';
+@import 'modules/buttons';
+@import 'modules/modals';
+@import 'modules/sliders';
+@import 'modules/s-site-head';
+@import 'modules/s-main-nav';
+@import 'modules/s-site-footer';
+@import 'modules/simple-map';
+@import 'modules/animations';
+@import 'modules/tabs';
+@import 'modules/page-title';
+@import 'modules/pagination';
+@import 'modules/filter';
+@import 'modules/intro';
+
+@import 'pages/home';
+@import 'pages/lp-genasot';
+@import 'pages/cases-details';
+@import 'pages/contacts';
+@import 'pages/products';
+@import 'pages/cases-list';
+@import 'pages/factory';
+@import 'pages/about';
+@import 'pages/all_details';

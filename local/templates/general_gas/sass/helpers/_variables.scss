@@ -1,0 +1,43 @@
+$breakpoints: (
+	'xl': (max-width: 1400px),
+	'l': (max-width: 1024px),
+	'm': (max-width: 768px),
+	's': (max-width: 680px),
+	'xs': (max-width: 480px),
+);
+
+$font: 'Ubuntu', Arial, sans-serif;
+$font-icons: 'gas' !important;
+
+$black: #002061;
+$blue: #1c7bbe;
+$orange: #f26200;
+$orange-hover: #ff8836;
+$light-bg: #f1f5f9;
+$white-bg: #fcfcfc;
+$light-blue: #cde4f8;
+$grey: #8f9eae;
+$light-text: #7e8ca7;
+$red: #f03037;
+$green: #82c457;
+
+$gradient-blue: linear-gradient(135deg,#002061,#2d5096);
+$gradient-blue-inverted: linear-gradient(135deg,#2d5096,#002061);
+$gradient-blue-light: linear-gradient(135deg, #2d9ff0, #0d68a9);
+$gradient-blue-light-inverted: linear-gradient(135deg, #0d68a9, #2d9ff0);
+$gradient-orange: linear-gradient(135deg, #ff8836, #f26200);
+
+$container_width: 1232px;
+
+$pad-xs: 8px;
+$pad-s: 16px;
+$pad-m: 24px;
+$pad-l: 40px;
+$pad-xl: 64px;
+$pad-xxl: 80px;
+
+
+$shadow-btn-orange: 7px 7px 18px -5px rgba(101,41,0,0.35);
+$shadow-btn-orange--hover: 7px 7px 18px -5px transparentize($orange,0.3);
+$shadow-btn-red: 7px 7px 18px -5px rgba(101,41,0,0.35);
+$shadow-btn-red--hover: 7px 7px 18px -5px transparentize($red,0.3);

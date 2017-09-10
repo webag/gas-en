@@ -1,0 +1,150 @@
+.s-details{
+	background: $white-bg;
+	padding-top: $pad-xl;
+	padding-bottom: 1px;
+	z-index: 2;
+	@include res(l){
+		padding-top: $pad-l;
+	}
+	@include res(m){
+		padding-top: $pad-m;
+	}
+	@include res(s){
+		padding-top: $pad-s;
+	}
+}
+
+.details-block{
+	background: #FFF;
+	@extend %shadow-for-white-block;
+	padding: $pad-l;
+	margin-bottom: -360px;
+	@include res(m){
+		padding: $pad-m;
+	}
+	@include res(s){
+		padding: $pad-s;
+	}
+}
+
+
+.case-details{
+
+	&__top-row{
+		margin-bottom: $pad-l;
+	}
+
+	&__title{
+		margin: $pad-s 0 $pad-xs 0;
+	}
+
+	&__logo{
+		max-width: 100%;
+		height: auto;
+		margin-top: $pad-l;
+		@include res(s){
+			margin-top: $pad-s;
+			max-width: 60%;
+		}
+	}
+
+	&__right{
+		@include res(s){
+			margin-top: $pad-s;
+		}
+	}
+
+	&__solution-title{
+		margin-top: $pad-l;
+		@include res(s){
+			margin-top: 0;
+		}
+	}
+
+	&__product{
+		.lead-extrabig{
+			margin-bottom: $pad-m;
+		}
+	}
+
+	&__prodvar{
+		margin-bottom: $pad-m;
+	}
+
+	&__photos{
+		padding-top: $pad-l;
+		margin-bottom: -$pad-s;
+		@include res(s){
+			padding-top: $pad-m;
+		}
+
+		.h1{
+			text-align: center;
+			margin-bottom: $pad-l;
+			@include res(s){
+				margin-bottom: $pad-m;
+			}
+		}
+
+		.bordered-img-hover{
+			margin-bottom: $pad-s;
+		}
+	}
+
+	&__info{
+		margin-top: $pad-l;
+	}
+
+	&__img-phone{
+		margin-top: $pad-s;
+		display: none;
+		@include res(s){
+			display: block;
+		}
+	}
+
+	&__img-desktop{
+		margin-bottom: $pad-l;
+		@include res(s){
+			display: none;
+		}
+	}
+}
+
+.case-details-param{
+	display: inline-flex;
+	vertical-align: top;
+	margin-right: $pad-m;
+	margin-bottom: $pad-m;
+	align-items: center;
+
+	img{
+		margin-right: $pad-s;
+	}
+}
+
+
+
+//s-details-related
+.s-details-related{
+	padding-top: 440px;
+	padding-bottom: $pad-xl;
+	z-index: 1;
+
+	.container{
+		@extend %blue-line-top;
+		padding-top: $pad-l;
+		@include res(s){
+			padding-top: $pad-l;
+		}
+	}
+
+	.h2{
+		margin-bottom: $pad-m;
+	}
+
+	&--noitems{
+		padding-bottom: 0;
+	}
+}
+//s-details-related

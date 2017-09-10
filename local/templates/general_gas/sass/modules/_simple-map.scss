@@ -1,0 +1,93 @@
+//s-simple-map
+.s-simple-map{
+	padding: $pad-xl 0 $pad-xxl 0;
+	z-index: 3;
+	@include res(l){
+		display: flex;
+		align-items: stretch;
+		padding: 0;
+		flex-wrap: wrap;
+	}
+
+	.container{
+		@extend %blue-line-top;
+		padding-top: $pad-xl;
+		text-align: right;
+		pointer-events: none;
+		display: flex;
+		justify-content: flex-end;
+		@include res(l){
+			width: 50%;
+			padding: 0;
+		}
+		@include res(s){
+			width: 100%;
+		}
+		&:after{
+			@include res(l){
+				display: none;
+			}
+		}
+	}
+}
+
+.simple-map-panel{
+	background: #FFF;
+	text-align: left;
+	padding: $pad-l;
+	pointer-events: all;
+	margin-right: 0;
+	flex-shrink: 1;
+	@extend %shadow-for-white-block;
+	@include res(xl){
+		padding: $pad-m;
+	}
+	@include res(s){
+		padding: $pad-s;
+		order: 1;
+	}
+
+	&__title{
+		margin-bottom: $pad-l;
+		@include res(xl){
+			margin-bottom: $pad-m;
+		}
+		@include res(s){
+			margin-bottom: $pad-s;
+		}
+	}
+
+	.h3{
+		margin-bottom: $pad-s;
+	}
+
+	address{
+		margin-bottom: $pad-m;
+		@include res(s){
+			margin-bottom: $pad-s;
+		}
+	}
+}
+
+.simple-map{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate3d(0,0,0);
+	will-change: transform;
+	flex-shrink: 1;
+	@include res(l){
+		position: relative;
+		height: auto;
+		width: 50%;
+		flex-shrink: 0;
+	}
+	@include res(s){
+		width: 100%;
+		height: 200px;
+		order: 1;
+	}
+}
+//s-simple-map

@@ -1,0 +1,180 @@
+.btn{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	padding: 11px 40px 14px 40px;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: $font;
+	line-height: 1.3;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	transition: background 0.3s ease,box-shadow 0.3s ease;
+	user-select: none;
+	background: $orange;
+	border: none;
+	color: #FFF;
+	border-radius: 25px;
+	box-shadow: $shadow-btn-orange;
+	white-space: nowrap;
+
+	&:focus,&:hover{
+		outline: none;
+		background: $orange-hover;
+		box-shadow: $shadow-btn-orange--hover;
+	}
+
+	&:active{
+		background: $orange;
+		box-shadow: $shadow-btn-orange;
+	}
+
+	@include res(s){
+		font-size: 16px;
+		padding: 9px 16px 11px 16px;
+	}
+}
+
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+
+//icon buttons
+.btn--icon{
+	padding: 11px 16px 14px 40px;
+	@include res(s){
+		padding: 9px 16px 11px 16px;
+	}
+
+	i{
+		margin-left: 36px;
+		line-height: 0;
+		@include res(s){
+			margin-left: 16px;
+		}
+
+		&.i-right-ar{
+			font-size: 12px;
+		}
+		&.i-forward{
+			font-size: 14px;
+		}
+		&.i-play{
+			font-size: 16px;
+			top: 2px;
+			position: relative;
+		}
+	}
+}
+//icon buttons
+
+
+//round buttons
+.btn-play{
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background: $orange;
+	color: #FFF;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+	transition: background 0.3s ease,box-shadow 0.3s ease;
+	box-shadow: $shadow-btn-orange;
+
+	&:focus,&:hover{
+		background: $orange-hover;
+		box-shadow: $shadow-btn-orange--hover;
+	}
+
+	&:active{
+		background: $orange;
+		box-shadow: $shadow-btn-orange;
+	}
+
+	&:before{
+		content: '\e905';
+		font-family: $font-icons;
+		position: absolute;
+		top: 15px;
+		left: 17px;
+		line-height: 1;
+		font-size: 18px;
+	}
+
+	&--big{
+		width: 64px;
+		height: 64px;
+
+		&:before{
+			top: 21px;
+			left: 22px;
+			font-size: 24px;
+		}
+	}
+
+	&--small{
+		width: 26px;
+		height: 26px;
+
+		&:before{
+			top: 8px;
+			left: 9px;
+			font-size: 10px;
+		}
+	}
+}
+//round buttons
+
+
+//colors buttons
+.btn--orange{
+	background: $orange;
+	box-shadow: $shadow-btn-orange;
+
+	&:focus,&:hover{
+		outline: none;
+		background: $orange-hover;
+		box-shadow: $shadow-btn-orange--hover;
+	}
+
+	&:active{
+		background: $orange;
+		box-shadow: $shadow-btn-orange;
+	}
+}
+
+.btn--red{
+	background: $red;
+	box-shadow: $shadow-btn-red;
+
+	&:focus,&:hover{
+		background: #ff3c43;
+		box-shadow: $shadow-btn-red--hover;
+	}
+
+	&:active{
+		background: $red;
+		box-shadow: $shadow-btn-red;
+	}
+}
+
+.btn--green{
+	background: $green;
+	box-shadow: none;
+
+	&:focus,&:hover{
+		background: lighten($green,5%);
+		box-shadow: none;
+	}
+
+	&:active{
+		background: $green;
+		box-shadow: none;
+	}
+}
+//colors buttons

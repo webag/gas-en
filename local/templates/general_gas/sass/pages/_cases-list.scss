@@ -1,0 +1,62 @@
+//s-page-title-bordered
+.s-page-title-bordered{
+	background: $white-bg;
+}
+//s-page-title-bordered
+
+
+//sale-cases
+.s-sale-cases{
+	padding: $pad-xl 0;
+}
+
+.sale-cases{
+	background: url("../img/lp-genasot/ballon-bg.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 40px 36px;
+	@include res(l){
+		padding: $pad-m;
+	}
+	@include res(m){
+		background: $light-bg;
+	}
+	@include res(xs){
+		padding: $pad-s;
+	}
+}
+//sale-cases
+
+
+//panels-list
+.panels-list{
+	background: $white-bg;
+	padding-bottom: $pad-m;
+}
+//panels-list
+
+
+//s-sale-usage
+.s-sale-usage{
+	padding-bottom: $pad-xxl;
+
+	.sale-block{
+		margin-top: -100px;
+	}
+}
+
+.sale-info--usage{
+	background: url("../img/usage/order-bg.jpg") center center no-repeat;
+	background-size: cover;
+	@include res(m){
+		background: $light-bg;
+	}
+}
+
+.sale-info--info{
+	background: url("../img/info/order-bg.jpg") center center no-repeat;
+	background-size: cover;
+	@include res(m){
+		background: $light-bg;
+	}
+}
+//s-sale-usage

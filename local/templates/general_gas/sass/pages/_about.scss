@@ -1,0 +1,291 @@
+//s-about-header
+.s-about-header{
+	background: url("../img/about/head-bg.jpg") center center no-repeat $black;
+	color: #FFF;
+	padding: 124px 0 160px 0;
+	height: 760px;
+	@include res(xl){
+		padding: $pad-xl 0 160px 0;
+		height: 500px;
+	}
+	@include res(s){
+		padding: $pad-m 0 160px 0;
+		height: auto;
+	}
+
+	.h1{
+		margin-bottom: $pad-xl;
+		@include res(xl){
+			margin-bottom: $pad-m;
+		}
+	}
+
+	.user-content{
+		width: 490px;
+		max-width: 100%;
+	}
+}
+//s-about-header
+
+
+//s-about-main
+.s-about-main{
+	background: $white-bg;
+	padding-bottom: $pad-xxl;
+	@include res(l){
+		padding-bottom: $pad-xl;
+	}
+	@include res(m){
+		padding-bottom: $pad-l;
+	}
+	@include res(s){
+		padding-bottom: $pad-m;
+	}
+
+	.about-video{
+		margin-top: 100px;
+		margin-bottom: 0;
+		@include res(m){
+			margin-top: $pad-xl;
+		}
+		@include res(xs){
+			margin-top: $pad-l;
+		}
+	}
+}
+
+.creators{
+	position: relative;
+	top: -140px;
+	margin-bottom: -60px;
+	@include res(m){
+		margin-bottom: -80px;
+	}
+	@include res(xs){
+		margin-bottom: -120px;
+	}
+	
+	.lead-extrabig{
+		color: #FFF;
+		margin-bottom: $pad-s;
+	}
+
+	.team-panel{
+		max-width: 290px;
+		@include res(xs){
+			margin-bottom: $pad-m;
+		}
+	}
+}
+
+.about-fact{
+	margin-top: $pad-l;
+	display: flex;
+	align-items: center;
+	@include res(xs){
+		margin-top: $pad-m;
+	}
+
+	&__icon{
+		width: 100px;
+		flex-shrink: 0;
+		text-align: center;
+		@include res(xs){
+			width: 80px;
+		}
+	}
+
+	&__content{
+		.h3{
+			display: block;
+		}
+		small{
+			display: block;
+			font-size: 16px;
+			line-height: 1.2;
+			@include res(xs){
+				font-size: 14px;
+			}
+		}
+	}
+}
+
+.about-history{
+
+	.h2{
+		padding-top: $pad-xl;
+		margin-bottom: $pad-l;
+		@include res(m){
+			padding-top: $pad-l;
+			margin-bottom: $pad-m;
+		}
+	}
+}
+
+.history-item{
+	padding-left: 100px;
+	position: relative;
+	@include res(l){
+		padding-left: 0;
+	}
+
+	&__year{
+		position: absolute;
+		left: 0;
+		top: -2px;
+		padding-left: 40px;
+		font-size: 18px;
+		font-weight: 500;
+		@include res(l){
+			position: relative;
+			display: block;
+		}
+
+		&:before{
+			content: '';
+			width: 22px;
+			height: 4px;
+			background: $black;
+			position: absolute;
+			left: 0;
+			top: 12px;
+		}
+	}
+}
+//s-about-main
+
+
+//s-about-photos
+.s-about-photos{
+	background: $white-bg;
+	padding: $pad-xl 0;
+	@include res(l){
+		padding: $pad-l 0;
+	}
+
+	.h1{
+		text-align: center;
+		margin-bottom: $pad-l;
+		@include res(s){
+			margin-bottom: $pad-m;
+		}
+	}
+}
+//s-about-photos
+
+
+//s-team
+.s-team{
+	padding: $pad-xl 0;
+	@include res(s){
+		padding: $pad-l 0;
+	}
+
+	.h1{
+		margin-bottom: $pad-xl;
+		padding-right: 100px;
+		user-select: none;
+		@include res(m){
+			padding-right: 0;
+		}
+	}
+
+	&__lines{
+		position: absolute;
+		pointer-events: none;
+		right: 0;
+		top: -400px;
+		width: 429px;
+		height: 541px;
+		overflow: hidden;
+
+		object{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			right: -100px;
+			top: 0;
+			@include res(xl){
+				display: none;
+			}
+		}
+	}
+}
+
+
+.team-slider{
+	.team-panel{
+		width: 290px;
+		height: auto;
+		margin: $pad-xs $pad-s $pad-xs 0;
+	}
+
+	.flickity-prev-next-button{
+		top: -106px;
+		left: 50%;
+		@include res(xl){
+			top: -104px;
+			left: initial;
+		}
+		@include res(l){
+			top: -100px;
+		}
+		@include res(m){
+			top: -44px;
+		}
+
+		&.previous{
+			transform: translate(540px,0);
+			@include res(xl){
+				transform: none;
+				right: 56px;
+			}
+			@include res(m){
+				top: -44px;
+				right: inherit;
+				left: 16px;
+			}
+		}
+		&.next{
+			transform: translate(580px,0);
+			@include res(xl){
+				transform: none;
+				right: 16px;
+			}
+			@include res(m){
+				right: inherit;
+				left: 56px;
+			}
+		}
+	}
+}
+
+
+.team-panel{
+	background: #FFF;
+	@extend %shadow-on-white-bg;
+
+	&__photo{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+
+	&__name{
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1.1;
+		margin-bottom: 4px;
+		height: 2.2em;
+	}
+	
+	&__dolg{
+		font-size: 14px;
+		color: $light-text;
+	}
+
+	&__content{
+		padding: $pad-s;
+	}
+}
+//s-team

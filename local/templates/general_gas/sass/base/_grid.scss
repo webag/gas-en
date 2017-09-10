@@ -1,0 +1,42 @@
+.hidden{
+	display: none !important;
+}
+
+@for $i from 0 through 12 {
+	.grid-#{$i} {
+		@extend %grid;
+		width: 1 / 12 * $i * 100%;
+	}
+	.grid-offset-#{$i} {
+		margin-left: 1 / 12 * $i * 100%;
+	}
+}
+
+@each $breakpoint,$value in $breakpoints {
+	@include res($breakpoint){
+		@for $i from 0 through 12 {
+			.grid-#{$i}_#{$breakpoint} {
+				width: 1 / 12 * $i * 100%;
+			}
+			.grid-offset-#{$i}_#{$breakpoint} {
+				margin-left: 1 / 12 * $i * 100%;
+			}
+		}
+	}
+}
+
+.row{
+	margin-left: -8px;
+	margin-right: -8px;
+	display: flex;
+	flex-wrap: wrap;
+
+	[class^="grid"]{
+		padding: 0 8px;
+	}
+}
+
+.row--nopad{
+	display: flex;
+	flex-wrap: wrap;
+}

@@ -1,0 +1,110 @@
+.s-site-footer{
+	background: $white-bg;
+	padding: $pad-xl 0 $pad-l 0;
+	@include res(s){
+		padding: $pad-l 0;
+	}
+
+	.row{
+		display: flex;
+		align-items: stretch;
+		flex-wrap: wrap;
+	}
+
+	&__left{
+		display: flex;
+		flex-direction: column;
+		@include res(m){
+			margin-bottom: $pad-m;
+		}
+	}
+
+	&__nav{
+		@include res(m){
+			margin-bottom: $pad-m;
+		}
+	}
+
+	&__right{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.foot-left-text{
+	margin-top: auto;
+	font-weight: 500;
+	padding-top: $pad-m;
+	
+	p{
+		color: $grey;
+		margin-top: $pad-m;
+		@include res(m){
+			margin-top: $pad-s;
+		}
+	}
+}
+
+.foot-rigth-text{
+	margin-top: auto;
+	font-weight: 500;
+	padding-top: $pad-m;
+
+	address{
+		font-style: normal;
+	}
+
+	&__phone{
+		display: block;
+		margin: $pad-m 0;
+	}
+}
+
+.foot-nav{
+	a{
+		display: block;
+		font-size: 15px;
+		font-weight: 500;
+		text-transform: uppercase;
+		margin-bottom: $pad-s;
+		transition: all 0.3s ease;
+		@include res(l){
+			font-size: 15px;
+		}
+		@include res(m){
+			display: inline-block;
+			margin: 0 $pad-s $pad-xs 0;
+		}
+
+		&:hover{
+			color: $orange-hover;
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+.s-policy{
+	background: $white-bg;
+	font-weight: 500;
+	color: $grey;
+	text-align: center;
+
+	.container{
+		padding: $pad-l $pad-s;
+		position: relative;
+
+		&:after{
+			content: '';
+			position: absolute;
+			width: calc(100% - 32px);
+			height: 2px;
+			left: 16px;
+			top: 0;
+			background: $black;
+		}
+	}
+}

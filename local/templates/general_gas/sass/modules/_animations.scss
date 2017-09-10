@@ -1,0 +1,28 @@
+.wp{
+	
+	&--fadeup{
+		transition: transform 0.6s ease,opacity 0.6s ease;
+		opacity: 0;
+		transform: translate3d(0,25px,0);
+		will-change: transform,opacity;
+	}
+
+	&--fadeleft{
+		transition: transform 0.6s ease,opacity 0.6s ease;
+		opacity: 0;
+		transform: translate3d(-25px,0,0);
+		will-change: transform,opacity;
+	}
+
+	&--faderight{
+		transition: transform 0.6s ease,opacity 0.6s ease;
+		opacity: 0;
+		transform: translate3d(25px,0,0);
+		will-change: transform,opacity;
+	}
+
+	&.animated{
+		opacity: 1;
+		transform: none;
+	}
+}

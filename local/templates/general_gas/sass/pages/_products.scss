@@ -1,0 +1,30 @@
+.s-products{
+	padding-bottom: $pad-xl;
+	background: $white-bg;
+	@include res(l){
+		padding-bottom: $pad-l;
+	}
+	@include res(s){
+		padding-bottom: $pad-m;
+	}
+
+	.h1{
+		margin-bottom: $pad-l;
+	}
+
+	.home-product{
+		background: #FFF;
+		@extend %shadow-for-white-block;
+		padding: $pad-m;
+		height: 100%;
+		@include res(l){
+			padding: $pad-s;
+		}
+	}
+
+	.grid-6_s{
+		@include res(s){
+			margin-bottom: $pad-s;
+		}
+	}
+}
