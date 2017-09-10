@@ -85,8 +85,13 @@
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHP7Iegls0varMN__B80OC9j3GOwwW-48"></script>
 
-<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=44184aa0a4524c7b265ee97897f6b9fb" charset="UTF-8"></script>
 
+<!--callbackhunter-->
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=ef6a1ae6107f184e491ab32a72b2bcf8" charset="UTF-8"></script>
+<!--callbackhunter-->
+
+
+<!--roistat-->
 <script>
 	(function(w, d, s, h, id) {
 		w.roistatProjectId = id; w.roistatHost = h;
@@ -95,11 +100,13 @@
 		var js = d.createElement(s); js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
 	})(window, document, 'script', 'cloud.roistat.com', 'c77413983437f1a7723be759251cbba2');
 </script>
+<!--roistat-->
+
 
 <!--google-->
 <script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
@@ -112,7 +119,36 @@
 <!--google-->
 
 
-<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter26247711 = new Ya.Metrika({ id:26247711, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/26247711" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function (d, w, c) {
+		(w[c] = w[c] || []).push(function() {
+			try {
+				w.yaCounter45470613 = new Ya.Metrika({
+					id:45470613,
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true,
+					webvisor:true,
+					ecommerce:"dataLayer"
+				});
+			} catch(e) { }
+		});
+
+		var n = d.getElementsByTagName("script")[0],
+			s = d.createElement("script"),
+			f = function () { n.parentNode.insertBefore(s, n); };
+		s.type = "text/javascript";
+		s.async = true;
+		s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+		if (w.opera == "[object Opera]") {
+			d.addEventListener("DOMContentLoaded", f, false);
+		} else { f(); }
+	})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45470613" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 
 </body>
 </html>
