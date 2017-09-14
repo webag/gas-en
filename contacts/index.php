@@ -16,7 +16,7 @@ $APPLICATION->SetTitle("Contacts");
 		<div class="links-list">
 			<a href="/upload/Requisites_GG.docx" class="link" target="_blank" download rel="nofollow"><i class="i-pdf-2"></i>Company details</a>
 			<a href="#s-contacts-callback" class="link scrollto" target="_blank" download rel="nofollow"><i class="i-bubble"></i>Contact us</a>
-			<a href="#" class="link" target="_blank" download rel="nofollow"><i class="i-badge"></i>Job vacancies</a>
+			<a href="https://hh.ru/employer/1975511" class="link" target="_blank"><i class="i-badge"></i>Job vacancies</a>
 		</div>
 	</div>
 </section>
